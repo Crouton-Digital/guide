@@ -8,7 +8,7 @@
 
 - **Investors:** Pantera Capital, Coinbase Ventures, Crypto.com, Alameda Research, ConsenSys Mesh.
 #
-⎜[**Discord**](https://discord.gg/subspace-network) ⎜ [**Twitter**](https://twitter.com/NetworkSubspace) ⎜ [**Website**](https://subspace.network) ⎜ [**Explorer**](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Feu-0.gemini-3c.subspace.network%2Fws#/explorer) ⎜ [**Telemetry**](https://telemetry.subspace.network/) ⎜
+⎜[**Discord**](https://discord.gg/subspace-network) ⎜ [**Twitter**](https://twitter.com/NetworkSubspace) ⎜ [**Website**](https://subspace.network) ⎜ [**Explorer**](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Feu-0.gemini-3d.subspace.network%2Fws#/explorer) ⎜ [**Telemetry**](https://telemetry.subspace.network/) ⎜
 ___
 
 ### `Server requirements:`
@@ -32,8 +32,11 @@ ___
 ### `Node install:`
 
 ```bash
+# Manual entry of the pre-release version
+TAG=v0.2.0-alpha
+
 # Determine latest release
-TAG=$(wget -qO- https://api.github.com/repos/subspace/subspace-cli/releases | jq '.[] | select(.prerelease==false) | select(.draft==false) | .html_url' | grep -Eo "v[0-9]*.[0-9]*.[0-9]*" | head -n 1) && echo "Cli version: $TAG"
+# TAG=$(wget -qO- https://api.github.com/repos/subspace/subspace-cli/releases | jq '.[] | select(.prerelease==false) | select(.draft==false) | .html_url' | grep -Eo "v[0-9]*.[0-9]*.[0-9]*" | head -n 1) && echo "Cli version: $TAG"
 ```
 **You can make sure the version is determined successfully, it should match the ⎧<img src='https://user-images.githubusercontent.com/83868103/228858929-859e6479-e1e9-465f-9f92-73a6bc437207.png' alt='latest'  height=25 >⎫ [release](https://github.com/subspace/subspace-cli/releases)** 
 
@@ -49,29 +52,31 @@ echo "Cli version: $(subspace -V)"
 ___
 ### `Wallet preparation:`
 **`Installing wallet:` follow the [link](https://polkadot.js.org/extension/) and install the Polkadot extension for your browser**  
-**`Metadata update:` to add the Subspace Gemini 3c network to your wallet, follow the [link]() and update the metadata**
+**`Metadata update:` to add the Subspace Gemini 3d network to your wallet, follow the [link](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Feu-0.gemini-3d.subspace.network%2Fws#/accounts) and update the metadata**
 <p align="center">
 <img src='https://user-images.githubusercontent.com/83868103/228912506-fd61edc7-1ed6-4228-994d-0c0e827aa581.png' alt='PRE-RELISE'  width=50% > 
 </p>
 
 #
 
-**`The wallet is already added in the extension:` simply select the new "Subspace Gemini 3c" network for your wallet and proceed to the next step**
+**`The wallet is already added in the extension:` simply select the new "Subspace Gemini 3d" network for your wallet and proceed to the next step**
 <p align="center">
-  <img src='https://user-images.githubusercontent.com/83868103/228937864-a7bf4bfe-7138-459e-a4ee-b31daf0a8837.png' alt='PRE-RELISE'  width=80% > 
+  <img src='https://user-images.githubusercontent.com/113435724/229575671-fb66d41d-6ba7-4124-a8a2-0cb19a189a92.png' alt='PRE-RELISE'  width=80% > 
 </p> 
+
+
 
 #
 
 **`Restore wallet from past testnets:`**  
   - Press ✚ in your extension
   - Press  "🔑 Import account from pre-existing seed" 
-  - Enter your mnemonic seed, select "Subspace Gemini 3c" network and click "Next"
+  - Enter your mnemonic seed, select "Subspace Gemini 3d" network and click "Next"
   - Enter descriptive name for your account, password and click "Add the account with the supplied seed"
   - After restoring the wallet, you can proceed to the next step
 
 <p align="center">
-  <img src='https://user-images.githubusercontent.com/83868103/228935737-d12cd130-4c96-40c5-ab0b-832d316c3f1f.png' alt='PRE-RELISE'  width=80% > 
+  <img src='https://user-images.githubusercontent.com/113435724/229575733-8eec7c32-06d0-4f2a-b370-1752b8ebb1e3.png' alt='PRE-RELISE'  width=80% > 
 </p> 
 
 #
@@ -79,8 +84,9 @@ ___
 **`Create a new wallet:`**  
 
 <p align="center">
-  <img src='https://user-images.githubusercontent.com/83868103/228932878-01a8ae10-ef94-4a39-bcf9-aa28267119b7.png' alt='PRE-RELISE'  width=80% > 
+  <img src='https://user-images.githubusercontent.com/113435724/229575933-80010139-6464-4601-a3ad-d0abf8cfbb30.png' alt='PRE-RELISE'  width=80% > 
 </p> 
+
 
 ___
 
@@ -92,7 +98,7 @@ ___
 # Farmer initialization
 subspace init
 ```
-- Enter your farmer/reward address: enter the wallet from the previous [step](https://github.com/testnet-pride/Node-manuals/blob/main/Testnets/Subspace/readme.md#wallet-preparation)
+- Enter your farmer/reward address: enter the wallet from the previous [step](https://github.com/CroutonDigital/guide/tree/main/testnets/subspace#wallet-preparation)
 - Enter your node name: unique name for telemetry search
 - Plot location: leave by default (press enter)
 - Plot size: 50GB
@@ -141,8 +147,9 @@ sudo journalctl -fu subspaced -o cat
 
 
 <p align="center">
-  <img src='https://user-images.githubusercontent.com/83868103/228972351-b5720dcd-8905-404a-8799-3bcd01a8b6c5.png' alt='PRE-RELISE'  width=80% > 
+  <img src='https://user-images.githubusercontent.com/113435724/229576726-9962d76f-444d-4387-9e0f-71a95f2ed150.png' alt='PRE-RELISE'  width=80% > 
 </p> 
+
 
 
 
@@ -151,7 +158,7 @@ sudo journalctl -fu subspaced -o cat
 </p>
 
 **`Once fully synced, your wallet balance should receive farming rewards:`**
-- Go to your [wallet](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Feu-0.gemini-3c.subspace.network%2Fws#/accounts)
+- Go to your [wallet](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Feu-0.gemini-3d.subspace.network%2Fws#/accounts)
 
 <p align="center">
   <img src='https://user-images.githubusercontent.com/83868103/228966327-31f62b0f-d499-45ef-a837-1c1045b8a277.png' alt='PRE-RELISE'  width=40% > 
@@ -161,8 +168,13 @@ ___
 
 
 ### `Node update:`
-
-**`Repeat steps:`  [Node install](https://github.com/testnet-pride/Node-manuals/blob/main/Testnets/Subspace/readme.md#node-install)**
+```bash
+# Reset database
+subspace wipe
+```
+### ⛔️ IMPORTANT! Execute the command only when switching between chains! ⛔️
+#
+**`Repeat steps:`  [Node install](https://github.com/CroutonDigital/guide/tree/main/testnets/subspace#node-install)**
 
 ```bash
 # Service restart
