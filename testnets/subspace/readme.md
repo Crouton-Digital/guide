@@ -1,5 +1,5 @@
 <p align="center">
-  <img src='https://user-images.githubusercontent.com/83868103/228973177-92a3e9f1-c3c4-4de4-873c-e1ea1f78f0a2.png' alt='PRE-RELISE'  width=100% > 
+  <img src='https://user-images.githubusercontent.com/113435724/229927873-b0a3a7ff-bd89-4c06-b89f-cea0c41b2f6f.png' alt='PRE-RELISE'  width=100% > 
 </p>
 
 **Subspace Network** allows developers to launch **Web3** applications at Internet scale. It provides a simple interface for quickly deploying decentralized applications with multiple chains that automatically scale as needed. Subspace runs on a new, environmentally friendly **4th-generation blockchain** that provides scalable storage and computing in the network without compromising security or decentralization. It easily integrates with existing **blockchains**, second-layer protocols, and decentralized applications, allowing it to serve as the foundational level of infrastructure for the entire **Web3** ecosystem. **Subspace** will enable developers to unlock the next wave of cryptography adoption, supporting **NFTs, GameFi, and the Metaverse** at Internet scale.
