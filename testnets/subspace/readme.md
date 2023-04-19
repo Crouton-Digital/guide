@@ -32,11 +32,9 @@ ___
 ### `Node install:`
 
 ```bash
-# Manual entry of the pre-release version
-TAG=v0.2.0-alpha
 
 # Determine latest release
-# TAG=$(wget -qO- https://api.github.com/repos/subspace/subspace-cli/releases | jq '.[] | select(.prerelease==false) | select(.draft==false) | .html_url' | grep -Eo "v[0-9]*.[0-9]*.[0-9]*" | head -n 1) && echo "Cli version: $TAG"
+TAG=$(wget -qO- https://api.github.com/repos/subspace/subspace-cli/releases | jq '.[] | select(.prerelease==false) | select(.draft==false) | .html_url' | grep -Eo "v[0-9]*.[0-9]*.[0-9]*" | head -n 1) && echo "Cli version: $TAG"
 ```
 **You can make sure the version is determined successfully, it should match the ⎧<img src='https://user-images.githubusercontent.com/83868103/228858929-859e6479-e1e9-465f-9f92-73a6bc437207.png' alt='latest'  height=25 >⎫ [release](https://github.com/subspace/subspace-cli/releases)** 
 
@@ -44,7 +42,7 @@ TAG=v0.2.0-alpha
 #
 ```bash
 # Download Cli
-wget https://github.com/subspace/subspace-cli/releases/download/$TAG/subspace-cli-ubuntu-x86_64-v3-$TAG -qO subspace && \
+wget https://github.com/subspace/subspace-cli/releases/download/$TAG-alpha/subspace-cli-ubuntu-x86_64-v3-$TAG-alpha -qO subspace && \
 sudo chmod 777 subspace && \
 sudo mv subspace /usr/local/bin/ && \
 echo "Cli version: $(subspace -V)"
