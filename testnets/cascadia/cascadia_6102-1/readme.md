@@ -1,12 +1,12 @@
 ## Useful links
-* [Website](https://www.cascadia.foundation)
-* [Twitter](https://twitter.com/CascadiaSystems)
-* [Discord](https://discord.gg/cascadia)
-* [Github](https://github.com/CascadiaFoundation)
-* [Official doc](https://cascadia.gitbook.io/gitbook)
-* [Whitepaper](https://drive.google.com/file/d/1t_s9tc04Ewr_CzHEWochzwZzVL7Vh3bz/edit)
-* [Faucet](https://www.cascadia.foundation/faucet)
-* Explorer: [⎧Official⎫](https://validator.cascadia.foundation) [⎧Nodes Guru⎫](https://testnet.cascadia.explorers.guru)
+* [**`Website`**](https://www.cascadia.foundation)
+* [**`Twitter`**](https://twitter.com/CascadiaSystems)
+* [**`Discord`**](https://discord.gg/cascadia)
+* [**`Github`**](https://github.com/CascadiaFoundation)
+* [**`Official doc`**](https://cascadia.gitbook.io/gitbook)
+* [**`Whitepaper`**](https://drive.google.com/file/d/1t_s9tc04Ewr_CzHEWochzwZzVL7Vh3bz/edit)
+* [**`Faucet`**](https://www.cascadia.foundation/faucet)
+* **`Explorer:`** [**`Official`**](https://validator.cascadia.foundation) [**`Nodes Guru`**](https://testnet.cascadia.explorers.guru)
 ___
 ## Prepare a server
 ```python
