@@ -107,12 +107,14 @@ CREATE WALLET
 ```bash
 cascadiad keys add <wallet_name>
 ```
+#
 ```python
 CREATE ADDRESS TO EMV
 ```
 ```bash
 cascadiad address-converter <wallet_address>
 ```
+#
 ```python
 CREATE A VALIDATOR
 ```
