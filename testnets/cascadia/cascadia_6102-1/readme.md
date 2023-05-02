@@ -1,1 +1,128 @@
-soon
+## Prepare a server
+```python
+UPDATE AND INSTALL PACKAGES
+```
+```bash
+sudo apt update && sudo apt upgrade -y && \
+sudo apt install curl tar wget clang pkg-config libssl-dev libleveldb-dev jq build-essential bsdmainutils git make ncdu htop screen unzip bc fail2ban htop -y
+```
+```python
+INSTALLING GO v1.19.4
+```
+```bash
+cd $HOME && \
+ver="1.19.4" && \
+wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz" && \
+sudo rm -rf /usr/local/go && \
+sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz" && \
+rm "go$ver.linux-amd64.tar.gz" && \
+echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile && \
+source $HOME/.bash_profile && \
+go version
+```
+___
+## Installation
+```python
+INSTALL LAST BINARY
+```
+```bash
+git clone https://github.com/CascadiaFoundation/cascadia
+cd cascadia
+git checkout v0.1.1
+make install
+```
+```python
+INIT CONFIG
+```
+```bash
+cascadiad init <moniker> --chain-id cascadia_6102-1
+cascadiad config chain-id cascadia_6102-1
+```
+```python
+CREATE WALLET
+```
+```bash
+cascadiad keys add <wallet_name>
+```
+```python
+CREATE ADDRESS TO EMV
+```
+```bash
+cascadiad address-converter <wallet_address>
+```
+```python
+DOWNLOAD GENESIS
+```
+```bash
+curl -LO https://github.com/CascadiaFoundation/chain-configuration/raw/master/testnet/genesis.json.gz
+gunzip genesis.json.gz
+cp genesis.json ~/.cascadiad/config/
+```
+```python
+ADD PEERS
+```
+```bash
+sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$(curl  https://raw.githubusercontent.com/CascadiaFoundation/chain-configuration/master/testnet/persistent_peers.txt)\"/" ~/.cascadiad/config/config.toml
+```
+```python
+SET MINIMUM GAS PRICE
+```
+```bash
+sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.0025aCC\"/" ~/.cascadiad/config/app.toml
+```
+```python
+CREATE SERVICE FILE
+```
+```bash
+sudo tee /etc/systemd/system/cascadiad.service > /dev/null <<EOF
+[Unit]
+Description=Cascadia
+After=network-online.target
+
+[Service]
+User=$USER
+ExecStart=$(which cascadiad) start
+Restart=always
+RestartSec=3
+LimitNOFILE=4096
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+```python
+SERVICE FILE ACTIVATION
+```
+```bash
+sudo systemctl daemon-reload && \
+sudo systemctl enable cascadiad && \
+sudo systemctl restart cascadiad
+```
+```python
+CHECK LOGS
+```
+```bash
+journalctl -fu cascadiad -o cat
+```
+```python
+CREATE A VALIDATOR
+```
+```bash
+cascadiad tx staking create-validator \
+  --amount=1000000000000000000aCC \
+  --pubkey=$(cascadiad tendermint show-validator) \
+  --moniker="<moniker>" \
+  --identity="<identity>" \
+  --website="<website>" \
+  --details="<details>" \
+  --security-contact="<contact>" \
+  --chain-id="cascadia_6102-1" \
+  --commission-rate="0.10" \
+  --commission-max-rate="0.20" \
+  --commission-max-change-rate="0.01" \
+  --min-self-delegation="1" \
+  --gas "auto" \
+  --gas-adjustment=1.2 \
+  --gas-prices="7aCC" \
+  --from=<wallet_name>
+  ```
