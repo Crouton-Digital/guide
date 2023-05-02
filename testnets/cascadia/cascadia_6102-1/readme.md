@@ -39,18 +39,6 @@ cascadiad init <moniker> --chain-id cascadia_6102-1
 cascadiad config chain-id cascadia_6102-1
 ```
 ```python
-CREATE WALLET
-```
-```bash
-cascadiad keys add <wallet_name>
-```
-```python
-CREATE ADDRESS TO EMV
-```
-```bash
-cascadiad address-converter <wallet_address>
-```
-```python
 DOWNLOAD GENESIS
 ```
 ```bash
@@ -103,6 +91,19 @@ CHECK LOGS
 ```
 ```bash
 journalctl -fu cascadiad -o cat
+```
+___
+```python
+CREATE WALLET
+```
+```bash
+cascadiad keys add <wallet_name>
+```
+```python
+CREATE ADDRESS TO EMV
+```
+```bash
+cascadiad address-converter <wallet_address>
 ```
 ```python
 CREATE A VALIDATOR
