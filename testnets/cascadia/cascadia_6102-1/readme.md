@@ -100,7 +100,7 @@ CHECK LOGS
 journalctl -fu cascadiad -o cat
 ```
 ___
-## CREATING A VALIDATOR
+## Creating a validator
 ```python
 CREATE WALLET
 ```
