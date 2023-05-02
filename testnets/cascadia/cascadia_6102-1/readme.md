@@ -128,7 +128,7 @@ cascadiad keys add <wallet_name>
 ```
 #
 ```python
-CREATE ADDRESS TO EMV
+CONVERT ADDRESS TO EMV
 ```
 ```bash
 cascadiad address-converter <wallet_address>
