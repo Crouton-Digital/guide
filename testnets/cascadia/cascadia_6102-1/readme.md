@@ -31,6 +31,7 @@ cd cascadia
 git checkout v0.1.1
 make install
 ```
+#
 ```python
 INIT CONFIG
 ```
@@ -38,6 +39,7 @@ INIT CONFIG
 cascadiad init <moniker> --chain-id cascadia_6102-1
 cascadiad config chain-id cascadia_6102-1
 ```
+#
 ```python
 DOWNLOAD GENESIS
 ```
@@ -46,18 +48,21 @@ curl -LO https://github.com/CascadiaFoundation/chain-configuration/raw/master/te
 gunzip genesis.json.gz
 cp genesis.json ~/.cascadiad/config/
 ```
+#
 ```python
 ADD PEERS
 ```
 ```bash
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$(curl  https://raw.githubusercontent.com/CascadiaFoundation/chain-configuration/master/testnet/persistent_peers.txt)\"/" ~/.cascadiad/config/config.toml
 ```
+#
 ```python
 SET MINIMUM GAS PRICE
 ```
 ```bash
 sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.0025aCC\"/" ~/.cascadiad/config/app.toml
 ```
+#
 ```python
 CREATE SERVICE FILE
 ```
@@ -78,6 +83,7 @@ LimitNOFILE=4096
 WantedBy=multi-user.target
 EOF
 ```
+#
 ```python
 SERVICE FILE ACTIVATION
 ```
@@ -86,6 +92,7 @@ sudo systemctl daemon-reload && \
 sudo systemctl enable cascadiad && \
 sudo systemctl restart cascadiad
 ```
+#
 ```python
 CHECK LOGS
 ```
@@ -93,6 +100,8 @@ CHECK LOGS
 journalctl -fu cascadiad -o cat
 ```
 ___
+## 
+CREATING A VALIDATOR
 ```python
 CREATE WALLET
 ```
