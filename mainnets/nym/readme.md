@@ -9,18 +9,18 @@
 ___
 ## Preparing the Wallet
 
-Before you begin initializing and running your mixnode, please visit [**`NYM website`**](https://nymtech.net/download/) and download the wallet designed for your specific operating system. In case pre-compiled binaries are not available for your operating system, you can follow the provided [**`instructions`**](https://nymtech.net/docs/wallet/desktop-wallet.html) to build the wallet on your own.
+#### Before you begin initializing and running your mixnode, please visit [**`NYM website`**](https://nymtech.net/download/) and download the wallet designed for your specific operating system. In case pre-compiled binaries are not available for your operating system, you can follow the provided [**`instructions`**](https://nymtech.net/docs/wallet/desktop-wallet.html) to build the wallet on your own.
 
-If you do not have a Nym address yet, kindly create one using the wallet and ensure that it is funded with tokens. The minimum amount required to bond a mixnode is 100 NYM, but we recommend having a slightly higher balance to cover any associated gas costs.
+#### If you do not have a Nym address yet, kindly create one using the wallet and ensure that it is funded with tokens. The minimum amount required to bond a mixnode is 100 NYM, but we recommend having a slightly higher balance to cover any associated gas costs.
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=500&color=F75242&center=true&vCenter=true&multiline=true&repeat=false&width=1000&height=100&lines=Remember+that+you+can+only+use+Cosmos+NYM+tokens+to+bond+your+mixnode.;+You+cannot+use+ERC20+representations+of+NYM+to+run+a+node.)](https://git.io/typing-svg)
 ___
 ## Minimum System Requirements
-* **Processors: 2 cores are fine. Get the fastest CPUs you can afford.**
-* **RAM: Memory requirements are very low - typically a mix node may use only a few hundred MB of RAM.**
-* **Disks: The mixnodes require no disk space beyond a few bytes for the configuration files.**
+* **`Processors:`** 2 cores are fine. Get the fastest CPUs you can afford.
+* **`RAM:`** Memory requirements are very low - typically a mix node may use only a few hundred MB of RAM.**
+* **`Disks:` The mixnodes require no disk space beyond a few bytes for the configuration files.**
 * **100 Mbit/s always-on internet connection with 4 TB/month data plan.**
-* **Linux OS (Ubuntu 20.04 or the latest version is recommended)**
+* **`OS:`** **Linux OS (Ubuntu 20.04 or the latest version is recommended)**
 ___
 
 ## Prepare a server
