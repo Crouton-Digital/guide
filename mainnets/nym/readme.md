@@ -60,6 +60,10 @@ echo Enter your Mixnode Name: && \
 read ID && echo 'export ID='$ID >> $HOME/.bash_profile && \
 source ~/.bash_profile
 ```
+```python
+INITIALIZE MIXNODE
+```
+
 ```
 nym-mixnode init --id $ID --host $(curl ifconfig.me)
 ```
