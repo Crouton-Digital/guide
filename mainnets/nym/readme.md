@@ -13,7 +13,7 @@ Before you begin initializing and running your mixnode, please visit [**`NYM web
 
 If you do not have a Nym address yet, kindly create one using the wallet and ensure that it is funded with tokens. The minimum amount required to bond a mixnode is 100 NYM, but we recommend having a slightly higher balance to cover any associated gas costs.
 
-You can conveniently purchase NYM tokens directly from the wallet itself using BTC or fiat currency through the Bity platform. Additionally, NYM tokens are currently listed on multiple exchanges.
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=500&color=F7F7F7&background=000000C1&center=true&vCenter=true&multiline=true&repeat=false&width=850&height=100&lines=Remember+that+you+can+only+use+Cosmos+NYM+tokens+to+bond+your+mixnode.;+You+cannot+use+ERC20+representations+of+NYM+to+run+a+node.)](https://git.io/typing-svg)
 ___
 ## Minimum System Requirements
 * **Processors: 2 cores are fine. Get the fastest CPUs you can afford.**
