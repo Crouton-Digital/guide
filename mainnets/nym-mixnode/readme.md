@@ -146,5 +146,6 @@ Copy the resulting signature:
 
 <img width="586" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/460884bd-1db4-4f31-a41e-30962acd904b">
 
+<img width="1525" alt="image" src="https://github.com/Crouton-Digital/guide/assets/83868103/7adb6f02-f199-486e-8f4a-81d0d6efebe7">
 
 
