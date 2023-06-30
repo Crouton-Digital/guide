@@ -132,5 +132,6 @@ nym-mixnode node-details --id $ID
 
 You will be asked to run a the sign command with your gateway - copy and paste the long signature as the value of --contract-msg and run it. It will look something like this:
 
+<img width="589" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/4cc03f4d-269e-4553-bc87-c77d0b565e76">
 
 
