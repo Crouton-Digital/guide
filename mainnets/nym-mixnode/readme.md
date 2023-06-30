@@ -132,9 +132,11 @@ nym-mixnode node-details --id $ID
 
 
 You will be asked to run a the sign command with your gateway - copy and paste the long signature as the value of --contract-msg and run it. It will look something like this:
+```
 echo Enter the "Message" copied from the NYM wallet: && \
 read MSG 
 nym-mixnode sign --id $ID --contract-msg $MSG
+```
 
 
 
