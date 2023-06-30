@@ -2,7 +2,7 @@
 
 * [**`Website`**](https://nymtech.net)
 * [**`Twitter`**](https://twitter.com/nymproject)
-* [**`Discord`**](https://discord.gg/cascadia)
+* [**`Discord`**](https://discord.gg/4QVWMyhu)
 * [**`Github`**](https://github.com/nymtech/nym)
 * [**`Official doc`**](https://cascadia.gitbook.io/gitbook)
 * **`Explorer:`** [**`Official`**](https://explorer.nymtech.net/network-components/mixnodes/) [**`Nodes Guru`**](https://mixnet.explorers.guru/mixnodes)
