@@ -63,12 +63,13 @@ source ~/.bash_profile
 ```python
 INITIALIZE MIXNODE
 ```
-
 ```
 nym-mixnode init --id $ID --host $(curl ifconfig.me)
 ```
-
+```python
+CREATING SERVICE
 ```
+```ruby
 sudo tee <<EOF >/dev/null /etc/systemd/journald.conf
 Storage=persistent
 EOF
@@ -92,7 +93,9 @@ WantedBy=multi-user.target
 EOF
 echo "DefaultLimitNOFILE=65535" >> /etc/systemd/system.conf
 ```
-
+```python
+RUNNING MIXNODE
+```
 ```
 sudo systemctl daemon-reload
 sudo systemctl enable nym-mixnode
