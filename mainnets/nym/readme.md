@@ -52,9 +52,12 @@ curl -L "https://github.com/nymtech/nym/releases/download/$tag/nym-mixnode" -o /
 chmod +x /usr/local/bin/nym-mixnode
 ```
 ## Mixnode configuration
+```python
+STORE MIXNODE NAME
+```
 ```
 echo Enter your Mixnode Name: && \
-read ID && echo 'export ID='ID >> $HOME/.bash_profile && \
+read ID && echo 'export ID='$ID >> $HOME/.bash_profile && \
 source ~/.bash_profile
 ```
 ```
