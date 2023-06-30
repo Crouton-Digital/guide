@@ -113,3 +113,24 @@ sudo journalctl -u nym-mixnode -o cat -f
 ## Bonding Mixnode
 
 
+#### Bond via the Desktop wallet (recommended)
+[<img align="right" src='https://github.com/Crouton-Digital/guide/assets/83868103/c57f4935-ee52-41fa-bafb-b3c16dd1f7f2' alt='Detail'  width='55%'>]() 
+```python
+OBTAIN NODE DETAILS
+```
+```bash
+nym-mixnode node-details --id $ID
+```
+
+* **Open your wallet, and head to the `Bond` page, then select the node type and input your node details. Press `Next`.**
+
+
+
+  <img src='https://github.com/Crouton-Digital/guide/assets/83868103/053e42b8-9e6d-409f-90cd-f168782f57d5' alt='Bonding'  width=48% > 
+  <img src='https://github.com/Crouton-Digital/guide/assets/83868103/163db173-f677-441a-8c41-3c300df56730' alt='Bonding'  width=50% > 
+
+
+You will be asked to run a the sign command with your gateway - copy and paste the long signature as the value of --contract-msg and run it. It will look something like this:
+
+
+
