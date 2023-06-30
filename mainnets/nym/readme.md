@@ -18,7 +18,7 @@ ___
 ## Minimum System Requirements
 * **`Processors:`** 2 cores are fine. Get the fastest CPUs you can afford.
 * **`RAM:`** Memory requirements are very low - typically a mix node may use only a few hundred MB of RAM.
-* **`Disks:`** The mixnodes require no disk space beyond a few bytes for the configuration files.**
+* **`Disks:`** The mixnodes require no disk space beyond a few bytes for the configuration files.
 * **`Bandwidth:`** 100 Mbit/s always-on internet connection with 4 TB/month data plan.
 * **`OS:`** Linux OS (Ubuntu 20.04 or the latest version is recommended)
 ___
