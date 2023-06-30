@@ -127,6 +127,7 @@ nym-mixnode node-details --id $ID
 
 
   <img src='https://github.com/Crouton-Digital/guide/assets/83868103/053e42b8-9e6d-409f-90cd-f168782f57d5' alt='Bonding'  width=48% > 
+  
   <img src='https://github.com/Crouton-Digital/guide/assets/83868103/163db173-f677-441a-8c41-3c300df56730' alt='Bonding'  width=50% > 
 
 
