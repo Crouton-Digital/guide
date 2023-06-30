@@ -16,10 +16,10 @@ If you do not have a Nym address yet, kindly create one using the wallet and ens
 You can conveniently purchase NYM tokens directly from the wallet itself using BTC or fiat currency through the Bity platform. Additionally, NYM tokens are currently listed on multiple exchanges.
 ___
 ## Minimum System Requirements
-* **2 x dedicated/physical CPUs withSSE4.1 and SSE4.2 flags (use [lscpu](https://manpages.ubuntu.com/manpages/trusty/man1/lscpu.1.html) to verify)**
-* **8 GB RAM**
-* **200 GB SSD**
-* **100 Mbit/s always-on internet connection with 4 TB/month data plan**
+* **Processors: 2 cores are fine. Get the fastest CPUs you can afford.**
+* **RAM: Memory requirements are very low - typically a mix node may use only a few hundred MB of RAM.**
+* **Disks: The mixnodes require no disk space beyond a few bytes for the configuration files.**
+* **100 Mbit/s always-on internet connection with 4 TB/month data plan.**
 * **Linux OS (Ubuntu 20.04 or the latest version is recommended)**
 ___
 
