@@ -53,7 +53,6 @@ chmod +x /usr/local/bin/nym-mixnode
 ```
 ## Mixnode configuration
 ```
-echo Enter your Wallet Address: && read ADDRESS && echo 'export ADDRESS='$ADDRESS >> $HOME/.bash_profile && \
 echo Enter your Mixnode Name: && read ID && echo 'export ID='ID >> $HOME/.bash_profile && \
 source ~/.bash_profile
 ```
