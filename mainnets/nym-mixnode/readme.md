@@ -140,5 +140,8 @@ nym-mixnode sign --id $ID --contract-msg $MSG
 <img width="589" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/4cc03f4d-269e-4553-bc87-c77d0b565e76">
 
 Copy the resulting signature:
+<img width="1377" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/e87e7c3d-fd4a-4618-8398-0c306ab4a289">
+
+<img width="588" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/5ff1a29f-596a-4f90-8a10-8a31aac50d35">
 
 
