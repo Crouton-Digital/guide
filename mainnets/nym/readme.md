@@ -32,7 +32,7 @@ Description=Nym Mixnode
 
 [Service]
 User=$USER
-ExecStart=/usr/local/bin/nym-mixnode run --id '$node_id'
+ExecStart=/usr/local/bin/nym-mixnode run --id '$ID'
 KillSignal=SIGINT
 Restart=on-failure
 RestartSec=30
