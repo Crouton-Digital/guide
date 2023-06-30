@@ -9,7 +9,7 @@
 ___
 ## Preparing the Wallet
 
-Before you begin initializing and running your mixnode, please visit our website and download the Nym wallet designed for your specific operating system. In case pre-compiled binaries are not available for your operating system, you can follow the provided instructions to build the wallet on your own.
+Before you begin initializing and running your mixnode, please visit [**`NYM website`**](https://nymtech.net/download/) and download the wallet designed for your specific operating system. In case pre-compiled binaries are not available for your operating system, you can follow the provided [**`instructions`**](https://nymtech.net/docs/wallet/desktop-wallet.html) to build the wallet on your own.
 
 If you do not have a Nym address yet, kindly create one using the wallet and ensure that it is funded with tokens. The minimum amount required to bond a mixnode is 100 NYM, but we recommend having a slightly higher balance to cover any associated gas costs.
 
