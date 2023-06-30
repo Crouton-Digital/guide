@@ -51,7 +51,7 @@ DOWNLOAD AND MAKE BINARY EXECUTABLE
 curl -L "https://github.com/nymtech/nym/releases/download/$tag/nym-mixnode" -o /usr/local/bin/nym-mixnode && \
 chmod +x /usr/local/bin/nym-mixnode
 ```
-## Mixnode configuration
+## Configuration Mixnode
 ```python
 STORE MIXNODE NAME
 ```
@@ -109,5 +109,7 @@ CHECK LOGS
 sudo journalctl -u nym-mixnode -o cat -f
 ```
 <img width="1095" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/b746b29a-a9fa-4457-ad43-aca32675513e">
+
+## Bonding Mixnode
 
 
