@@ -66,6 +66,7 @@ INITIALIZE MIXNODE
 ```
 nym-mixnode init --id $ID --host $(curl ifconfig.me)
 ```
+## Running Mixnode
 ```python
 CREATING SERVICE
 ```
@@ -94,7 +95,7 @@ EOF
 echo "DefaultLimitNOFILE=65535" >> /etc/systemd/system.conf
 ```
 ```python
-RUNNING MIXNODE
+START SERVICE
 ```
 ```
 sudo systemctl daemon-reload
