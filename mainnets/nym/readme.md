@@ -43,10 +43,10 @@ LimitNOFILE=65535
 [Install]
 WantedBy=multi-user.target
 EOF
+echo "DefaultLimitNOFILE=65535" >> /etc/systemd/system.conf
 ```
 
 ```
-echo "DefaultLimitNOFILE=65535" >> /etc/systemd/system.conf
 sudo systemctl daemon-reload
 sudo systemctl enable nym-mixnode
 sudo systemctl restart nym-mixnode
