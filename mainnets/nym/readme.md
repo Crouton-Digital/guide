@@ -25,8 +25,14 @@ ___
 
 ## Prepare a server
 
+```python
+UPDATE AND INSTALL REQUIRED PACKAGES
+```
 ```
 sudo apt update && sudo apt install curl ufw 
+```
+```python
+ALLOW PORTS
 ```
 ```
 sudo ufw allow 1789,1790,8000,22,80,443/tcp
