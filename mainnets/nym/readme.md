@@ -38,9 +38,20 @@ ALLOW PORTS
 sudo ufw allow 1789,1790,8000,22,80,443/tcp
 ```
 ## Установка бинарника
+```python
+Определение последней версии
+```
 ```
 tag=$(curl -s https://github.com/nymtech/nym/tags | grep -oE "nym-binaries-v[0-9.]+" | head -n 1)
+```
+```python
+Создание ссылки для скачивания
+```
+```
 url="https://github.com/nymtech/nym/releases/download/$tag/nym-mixnode"
+```
+```python
+Скачать бинарник и сделать исполняемым
 ```
 ```
 curl -L "$url" -o /usr/local/bin/nym-mixnode
