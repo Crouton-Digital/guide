@@ -16,11 +16,11 @@ ___
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=500&color=F75242&center=true&vCenter=true&multiline=true&repeat=false&width=1000&height=100&lines=Remember+that+you+can+only+use+Cosmos+NYM+tokens+to+bond+your+mixnode.;+You+cannot+use+ERC20+representations+of+NYM+to+run+a+node.)](https://git.io/typing-svg)
 ___
 ## Minimum System Requirements
-* **`Processors:`** 2 cores are fine. Get the fastest CPUs you can afford.
-* **`RAM:`** Memory requirements are very low - typically a mix node may use only a few hundred MB of RAM.
-* **`Disks:`** The mixnodes require no disk space beyond a few bytes for the configuration files.
-* **`Bandwidth:`** 100 Mbit/s always-on internet connection with 4 TB/month data plan.
-* **`OS:`** Linux OS (Ubuntu 20.04 or the latest version is recommended)
+* **`Processors:`** **2 cores are fine. Get the fastest CPUs you can afford.**
+* **`RAM:`** **Memory requirements are very low - typically a mix node may use only a few hundred MB of RAM.**
+* **`Disks:`** **The mixnodes require no disk space beyond a few bytes for the configuration files.**
+* **`Bandwidth:`** **100 Mbit/s always-on internet connection with 4 TB/month data plan.**
+* **`OS:`** **Linux OS (Ubuntu 20.04 or the latest version is recommended)**
 ___
 
 ## Prepare a server
