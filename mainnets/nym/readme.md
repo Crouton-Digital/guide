@@ -102,3 +102,12 @@ sudo systemctl daemon-reload
 sudo systemctl enable nym-mixnode
 sudo systemctl restart nym-mixnode
 ```
+```python
+CHECK LOGS
+```
+```
+sudo journalctl -u nym-mixnode -o cat -f
+```
+<img width="1095" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/b746b29a-a9fa-4457-ad43-aca32675513e">
+
+
