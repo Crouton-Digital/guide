@@ -24,7 +24,7 @@ ___
 ___
 
 ## Prepare a server
-
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&duration=1000&color=F7BC6C&background=91683700&vCenter=true&multiline=true&repeat=false&width=1050&lines=UPDATE+AND+INSTALL+REQUIRED+PACKAGES)](https://git.io/typing-svg)
 ```python
 UPDATE AND INSTALL REQUIRED PACKAGES
 ```
