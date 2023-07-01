@@ -1,4 +1,4 @@
-## Useful links
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&background=91683700&vCenter=true&repeat=false&width=1050&height=32&lines=Useful+links%3A)](https://git.io/typing-svg)
 
 * [**`Website`**](https://nymtech.net)
 * [**`Twitter`**](https://twitter.com/nymproject)
@@ -7,7 +7,7 @@
 * [**`Official doc`**](https://cascadia.gitbook.io/gitbook)
 * **`Explorer:`** [**`Official`**](https://explorer.nymtech.net/network-components/mixnodes/) [**`Nodes Guru`**](https://mixnet.explorers.guru/mixnodes)
 ___
-## Preparing the Wallet
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&background=91683700&vCenter=true&repeat=false&width=1050&height=32&lines=Preparing+the+Wallet%3A)](https://git.io/typing-svg)
 
 #### Before you begin initializing and running your mixnode, please visit [**`NYM website`**](https://nymtech.net/download/) and download the wallet designed for your specific operating system. In case pre-compiled binaries are not available for your operating system, you can follow the provided [**`instructions`**](https://nymtech.net/docs/wallet/desktop-wallet.html) to build the wallet on your own.
 
@@ -24,7 +24,7 @@ ___
 * **`Linux OS:`** **Ubuntu 20.04 or the latest version is recommended**
 ___
 
-## Prepare a server
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&background=91683700&vCenter=true&repeat=false&width=1050&height=32&lines=Prepare+a+server%3A)](https://git.io/typing-svg)
 
 ```python
 UPDATE AND INSTALL REQUIRED PACKAGES
@@ -38,7 +38,7 @@ ALLOW PORTS
 ```
 sudo ufw allow 1789,1790,8000,22,80,443/tcp
 ```
-## Installing Mixnode
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&background=91683700&vCenter=true&repeat=false&width=1050&height=32&lines=Installing+Mixnode%3A)](https://git.io/typing-svg)
 ```python
 DETERMINING THE LATEST VERSION
 ```
@@ -52,7 +52,7 @@ DOWNLOAD AND MAKE BINARY EXECUTABLE
 curl -L "https://github.com/nymtech/nym/releases/download/$tag/nym-mixnode" -o /usr/local/bin/nym-mixnode && \
 chmod +x /usr/local/bin/nym-mixnode
 ```
-## Configuration Mixnode
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&background=91683700&vCenter=true&repeat=false&width=1050&height=32&lines=Configuration+Mixnode%3A)](https://git.io/typing-svg)
 ```python
 STORE MIXNODE NAME
 ```
@@ -67,7 +67,7 @@ INITIALIZE MIXNODE
 ```
 nym-mixnode init --id $ID --host $(curl ifconfig.me)
 ```
-## Running Mixnode
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&background=91683700&vCenter=true&repeat=false&width=1050&height=32&lines=Running+Mixnode%3A)](https://git.io/typing-svg)
 ```python
 CREATING SERVICE
 ```
@@ -111,7 +111,7 @@ sudo journalctl -u nym-mixnode -o cat -f
 ```
 <img width="1095" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/b746b29a-a9fa-4457-ad43-aca32675513e">
 
-## Bonding Mixnode
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&background=91683700&vCenter=true&repeat=false&width=1050&height=32&lines=Bonding+Mixnode%3A)](https://git.io/typing-svg)
 
 
 #### Bond via the Desktop wallet (recommended)
