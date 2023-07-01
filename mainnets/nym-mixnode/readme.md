@@ -26,7 +26,7 @@ ___
 
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&background=91683700&vCenter=true&repeat=false&width=1050&height=32&lines=Prepare+a+server%3A)](https://git.io/typing-svg)
 
-```python
+```ruby
 UPDATE AND INSTALL REQUIRED PACKAGES
 ```
 ```
