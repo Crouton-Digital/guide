@@ -15,7 +15,8 @@ ___
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F75242&center=true&vCenter=true&multiline=true&repeat=false&width=1000&height=100&lines=Remember+that+you+can+only+use+Cosmos+NYM+tokens+to+bond+your+mixnode.;+You+cannot+use+ERC20+representations+of+NYM+to+run+a+node.)](https://git.io/typing-svg)
 ___
-## Minimum System Requirements
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&background=91683700&vCenter=true&repeat=false&width=1050&height=32&lines=Minimum+System+Requirements%3A)](https://git.io/typing-svg)
+
 * **`Processors:`** **2 cores are fine. Get the fastest CPUs you can afford.**
 * **`RAM:`** **Memory requirements are very low - typically a mix node may use only a few hundred MB of RAM.**
 * **`Disks:`** **The mixnodes require no disk space beyond a few bytes for the configuration files.**
