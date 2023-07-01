@@ -38,6 +38,7 @@ ALLOW PORTS
 ```
 sudo ufw allow 1789,1790,8000,22,80,443/tcp
 ```
+___
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&background=91683700&vCenter=true&repeat=false&width=1050&height=32&lines=Installing+Mixnode%3A)](https://git.io/typing-svg)
 ```python
 DETERMINING THE LATEST VERSION
@@ -52,6 +53,7 @@ DOWNLOAD AND MAKE BINARY EXECUTABLE
 curl -L "https://github.com/nymtech/nym/releases/download/$tag/nym-mixnode" -o /usr/local/bin/nym-mixnode && \
 chmod +x /usr/local/bin/nym-mixnode
 ```
+___
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&background=91683700&vCenter=true&repeat=false&width=1050&height=32&lines=Configuration+Mixnode%3A)](https://git.io/typing-svg)
 ```python
 STORE MIXNODE NAME
@@ -67,6 +69,7 @@ INITIALIZE MIXNODE
 ```
 nym-mixnode init --id $ID --host $(curl ifconfig.me)
 ```
+___
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&background=91683700&vCenter=true&repeat=false&width=1050&height=32&lines=Running+Mixnode%3A)](https://git.io/typing-svg)
 ```python
 CREATING SERVICE
@@ -110,7 +113,7 @@ CHECK LOGS
 sudo journalctl -u nym-mixnode -o cat -f
 ```
 <img width="1095" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/b746b29a-a9fa-4457-ad43-aca32675513e">
-
+___
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&background=91683700&vCenter=true&repeat=false&width=1050&height=32&lines=Bonding+Mixnode%3A)](https://git.io/typing-svg)
 
 
