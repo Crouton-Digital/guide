@@ -150,6 +150,9 @@ nym-mixnode node-details --id $ID
 echo Enter the "Message" copied from the NYM wallet: && read MSG
 ```
 #### Go back to your wallet and click on "Copy Message", then paste the value into the terminal.
+```python
+OBTAIN SIGNATURE
+```
 ```bash
 nym-mixnode sign --id $ID --contract-msg $MSG
 ```
