@@ -159,8 +159,8 @@ nym-mixnode sign --id $ID --contract-msg $MSG
 * **Copy the obtained signature and paste it into the corresponding window in your wallet, then click `Next` and `Confirm`**
 <img width="530" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/0f76b83d-dfcb-4ba4-8058-7378245bea9b">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&center=true&vCenter=true&multiline=true&repeat=false&width=1000&height=80&lines=Your+node+will+now+be+bonded+and+ready+to+mix+at+the+beginning+of+the+next+epoch+%E2%9C%85;At+most+1+hour+%E2%8F%B3)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&center=true&vCenter=true&multiline=true&repeat=false&width=1000&height=90&lines=Your+node+will+now+be+bonded+and+ready+to+mix+at+the+beginning+of+the+next+epoch+%E2%9C%85;At+most+1+hour+%E2%8F%B3)](https://git.io/typing-svg)
   
-#
+
 
 
