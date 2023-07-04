@@ -26,18 +26,20 @@ ___
 
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&background=91683700&vCenter=true&repeat=false&width=1050&height=32&lines=Prepare+a+server%3A)](https://git.io/typing-svg)
 
-```ruby
+```python
 UPDATE AND INSTALL REQUIRED PACKAGES
 ```
 ```
 sudo apt update && sudo apt install curl ufw 
 ```
+#
 ```python
 ALLOW PORTS
 ```
 ```
 sudo ufw allow 1789,1790,8000,22,80,443/tcp
 ```
+
 ___
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&background=91683700&vCenter=true&repeat=false&width=1050&height=32&lines=Installing+Mixnode%3A)](https://git.io/typing-svg)
 ```python
@@ -46,6 +48,7 @@ DETERMINING THE LATEST VERSION
 ```
 tag=$(curl -s https://github.com/nymtech/nym/tags | grep -oE "nym-binaries-v[0-9.]+" | head -n 1)
 ```
+#
 ```python
 DOWNLOAD AND MAKE BINARY EXECUTABLE
 ```
@@ -63,6 +66,7 @@ echo Enter your Mixnode Name: && \
 read ID && echo 'export ID='$ID >> $HOME/.bash_profile && \
 source ~/.bash_profile
 ```
+#
 ```python
 INITIALIZE MIXNODE
 ```
@@ -74,7 +78,7 @@ ___
 ```python
 CREATING SERVICE
 ```
-```ruby
+```
 sudo tee <<EOF >/dev/null /etc/systemd/journald.conf
 Storage=persistent
 EOF
@@ -98,6 +102,7 @@ WantedBy=multi-user.target
 EOF
 echo "DefaultLimitNOFILE=65535" >> /etc/systemd/system.conf
 ```
+#
 ```python
 START SERVICE
 ```
@@ -106,6 +111,7 @@ sudo systemctl daemon-reload
 sudo systemctl enable nym-mixnode
 sudo systemctl restart nym-mixnode
 ```
+#
 ```python
 CHECK LOGS
 ```
@@ -135,6 +141,15 @@ nym-mixnode node-details --id $ID
   <img src='https://github.com/Crouton-Digital/guide/assets/83868103/053e42b8-9e6d-409f-90cd-f168782f57d5' alt='Bonding'  width=48% > 
   
   <img src='https://github.com/Crouton-Digital/guide/assets/83868103/163db173-f677-441a-8c41-3c300df56730' alt='Bonding'  width=50% > 
+#
+  [<img align="right" src='https://github.com/Crouton-Digital/guide/assets/83868103/4cc03f4d-269e-4553-bc87-c77d0b565e76' alt='PHONE'  width='40%'>]() 
+You will be asked to run a the sign command with your gateway - copy and paste the long signature as the value of --contract-msg and run it. It will look something like this:
+```
+echo Enter the "Message" copied from the NYM wallet: && \
+read MSG 
+nym-mixnode sign --id $ID --contract-msg $MSG
+```
+
 
 
 You will be asked to run a the sign command with your gateway - copy and paste the long signature as the value of --contract-msg and run it. It will look something like this:
@@ -146,7 +161,7 @@ nym-mixnode sign --id $ID --contract-msg $MSG
 
 
 
-<img width="589" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/4cc03f4d-269e-4553-bc87-c77d0b565e76">
+
 
 Copy the resulting signature:
 <img width="1377" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/e87e7c3d-fd4a-4618-8398-0c306ab4a289">
