@@ -145,24 +145,22 @@ nym-mixnode node-details --id $ID
 
   [<img align="right" src='https://github.com/Crouton-Digital/guide/assets/83868103/8e748f32-5fde-4332-80dc-fa015f06e6ff' alt='PHONE'  width='43.5%'>]() 
 #### You will be asked to run a the sign command with your gateway.
-#### Please execute the command on your server:
+*  **Please execute the command on your server:**
 ```bash
 echo Enter the "Message" copied from the NYM wallet: && read MSG
 ```
-#### Go back to your wallet and click on "Copy Message", then paste the value into the terminal.
+*  **Go back to your wallet and click on `Copy Message`, then paste the value into the terminal**
 ```python
 OBTAIN SIGNATURE
 ```
 ```bash
 nym-mixnode sign --id $ID --contract-msg $MSG
 ```
-#### Copy the obtained signature and paste it into the corresponding window in your wallet, then click "Next".
+* **Copy the obtained signature and paste it into the corresponding window in your wallet, then click `Next` and `Confirm`**
 <img width="530" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/0f76b83d-dfcb-4ba4-8058-7378245bea9b">
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&center=true&vCenter=true&multiline=true&repeat=false&width=1000&height=80&lines=Your+node+will+now+be+bonded+and+ready+to+mix+at+the+beginning+of+the+next+epoch+%E2%9C%85;At+most+1+hour+%E2%8F%B3)](https://git.io/typing-svg)
+  
 #
-
-<img width="586" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/460884bd-1db4-4f31-a41e-30962acd904b">
-
-<img width="1525" alt="image" src="https://github.com/Crouton-Digital/guide/assets/83868103/7adb6f02-f199-486e-8f4a-81d0d6efebe7">
 
 
