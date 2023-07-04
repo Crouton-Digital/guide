@@ -142,29 +142,18 @@ nym-mixnode node-details --id $ID
   
   <img src='https://github.com/Crouton-Digital/guide/assets/83868103/163db173-f677-441a-8c41-3c300df56730' alt='Bonding'  width=50% > 
 #
-  [<img align="right" src='https://github.com/Crouton-Digital/guide/assets/83868103/4cc03f4d-269e-4553-bc87-c77d0b565e76' alt='PHONE'  width='40%'>]() 
-You will be asked to run a the sign command with your gateway - copy and paste the long signature as the value of --contract-msg and run it. It will look something like this:
+  [<img align="right" src='https://github.com/Crouton-Digital/guide/assets/83868103/0b3a4359-1ad6-4e23-bf8e-a5dfead89b29' alt='PHONE'  width='40%'>]() 
+#### You will be asked to run a the sign command with your gateway.
+#### Please execute the command on your server:
+```bash
+echo Enter the "Message" copied from the NYM wallet: && read MSG
 ```
-echo Enter the "Message" copied from the NYM wallet: && \
-read MSG 
+#### Go back to your wallet and click on "Copy Message", then paste the value into the terminal.
+```bash
 nym-mixnode sign --id $ID --contract-msg $MSG
 ```
-
-
-
-You will be asked to run a the sign command with your gateway - copy and paste the long signature as the value of --contract-msg and run it. It will look something like this:
-```
-echo Enter the "Message" copied from the NYM wallet: && \
-read MSG 
-nym-mixnode sign --id $ID --contract-msg $MSG
-```
-
-
-
-
-
 Copy the resulting signature:
-<img width="1377" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/e87e7c3d-fd4a-4618-8398-0c306ab4a289">
+<img width="550" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/e87e7c3d-fd4a-4618-8398-0c306ab4a289">
 
 <img width="588" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/5ff1a29f-596a-4f90-8a10-8a31aac50d35">
 
