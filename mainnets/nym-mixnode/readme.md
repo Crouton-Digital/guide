@@ -82,6 +82,7 @@ CREATING SERVICE
 sudo tee <<EOF >/dev/null /etc/systemd/journald.conf
 Storage=persistent
 EOF
+
 sudo systemctl restart systemd-journald
 sudo tee <<EOF >/dev/null /etc/systemd/system/nym-mixnode.service
 [Unit]
@@ -100,6 +101,7 @@ LimitNOFILE=65535
 [Install]
 WantedBy=multi-user.target
 EOF
+
 echo "DefaultLimitNOFILE=65535" >> /etc/systemd/system.conf
 ```
 #
