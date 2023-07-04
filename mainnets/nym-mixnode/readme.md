@@ -143,7 +143,7 @@ nym-mixnode node-details --id $ID
   <img src='https://github.com/Crouton-Digital/guide/assets/83868103/163db173-f677-441a-8c41-3c300df56730' alt='Bonding'  width=50% > 
 #
 
-  [<img align="right" src='https://github.com/Crouton-Digital/guide/assets/83868103/8e748f32-5fde-4332-80dc-fa015f06e6ff' alt='PHONE'  width='41%'>]() 
+  [<img align="right" src='https://github.com/Crouton-Digital/guide/assets/83868103/8e748f32-5fde-4332-80dc-fa015f06e6ff' alt='PHONE'  width='43.5%'>]() 
 #### You will be asked to run a the sign command with your gateway.
 #### Please execute the command on your server:
 ```bash
@@ -157,8 +157,9 @@ OBTAIN SIGNATURE
 nym-mixnode sign --id $ID --contract-msg $MSG
 ```
 #### Copy the obtained signature and paste it into the corresponding window in your wallet, then click "Next".
-<img width="575" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/0f76b83d-dfcb-4ba4-8058-7378245bea9b">
+<img width="530" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/0f76b83d-dfcb-4ba4-8058-7378245bea9b">
 
+#
 
 <img width="586" alt="Слой 1" src="https://github.com/Crouton-Digital/guide/assets/83868103/460884bd-1db4-4f31-a41e-30962acd904b">
 
