@@ -6,7 +6,7 @@
 * [**`Twitter`**](https://twitter.com/nymproject)
 * [**`Discord`**](https://discord.gg/4QVWMyhu)
 * [**`Github`**](https://github.com/nymtech/nym)
-* [**`Official doc`**](https://cascadia.gitbook.io/gitbook)
+* [**`Official doc`**](https://nymtech.net/docs)
 * **`Explorer:`** [**`Official`**](https://explorer.nymtech.net/network-components/mixnodes/) [**`Nodes Guru`**](https://mixnet.explorers.guru/mixnodes)
 ___
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&background=91683700&vCenter=true&repeat=false&width=1050&height=32&lines=Preparing+the+Wallet%3A)](https://git.io/typing-svg)
