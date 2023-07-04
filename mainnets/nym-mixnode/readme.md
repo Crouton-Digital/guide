@@ -1,3 +1,5 @@
+![image](https://github.com/Crouton-Digital/guide/assets/83868103/247e3c78-c67e-4550-b8f4-1d3412f0bcf3)
+
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=30&duration=1000&color=F46D22&background=91683700&vCenter=true&repeat=false&width=1050&height=32&lines=Useful+links%3A)](https://git.io/typing-svg)
 
 * [**`Website`**](https://nymtech.net)
