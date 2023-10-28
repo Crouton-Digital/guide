@@ -196,7 +196,7 @@
 ### 🌐 Additional Steps for Post-Genesis Validators:
 
 <details>
-  <summary>Setup for Post-Genesis Validators/summary>
+  <summary>Setup for Post-Genesis Validators</summary>
 
   - **Check for full synchronization**:
     Before proceeding, ensure that your node is fully synchronized. You can check the synchronization status with:
