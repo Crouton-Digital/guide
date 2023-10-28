@@ -27,25 +27,31 @@ rm -rf namada namada.tar.gz
 
 **Set the desired Protocol Buffers version tag**
 ```bash
-PROTOC_TAG="v23.3"
+PROTOC_TAG="23.3"
 ```
 
-**Download the Protocol Buffers archive from GitHub**
+**Construct the URL for downloading Protocol Buffers**
 ```bash
-curl -LO "https://github.com/protocolbuffers/protobuf/releases/download/$PROTOC_TAG/protoc-23.3-linux-x86_64.zip"
+PROTOC_URL="https://github.com/protocolbuffers/protobuf/releases/download/v$PROTOC_TAG/protoc-$PROTOC_TAG-linux-x86_64.zip"
 ```
 
-**Unzip the Protocol Buffers binary and place it in /usr/local/bin**
+**Define the name of the zip file**
 ```bash
-sudo unzip -o "protoc-23.3-linux-x86_64.zip" -d /usr/local bin/protoc
+PROTOC_ZIP="protoc-$PROTOC_TAG-linux-x86_64.zip"
 ```
 
-**Unzip the Protocol Buffers include files and place them in /usr/local/include**
+**Download Protocol Buffers**
 ```bash
-sudo unzip -o "protoc-23.3-linux-x86_64.zip" -d /usr/local 'include/*'
+curl -OL "$PROTOC_URL"
 ```
 
-**Remove the downloaded archive**
+**Install Protocol Buffers**
 ```bash
-rm -f "protoc-23.3-linux-x86_64.zip"
+sudo unzip -o "$PROTOC_ZIP" -d /usr/local bin/protoc
+sudo unzip -o "$PROTOC_ZIP" -d /usr/local 'include/*'
+```
+
+**Remove the downloaded zip file**
+```bash
+rm -f "$PROTOC_ZIP"
 ```
