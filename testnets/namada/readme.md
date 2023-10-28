@@ -101,75 +101,69 @@
 
 ### 🌟 Node Initialization:
 
-
 <details>
   <summary>Prepare for Initialization</summary>
 
-  1. **Create the required directories**:
+  - **Create the required directories**:
 
-     Create the main directory for pre-genesis:
-     ```bash
-     mkdir -p $HOME/.local/share/namada/pre-genesis/
-     ```
+    Create the main directory for pre-genesis:
+    ```bash
+    mkdir -p $HOME/.local/share/namada/pre-genesis/
+    ```
 
-     For example, if your alias is `CroutonDigital`, your backup should be placed in:
-     `$HOME/.local/share/namada/pre-genesis/CroutonDigital/`.
+    If you have a pre-genesis file, you should place it inside the created directory. For example, if your alias is `CroutonDigital`, the file should be placed in:
+    `$HOME/.local/share/namada/pre-genesis/CroutonDigital/`.
 
-  2. **Set your alias**:
+    If you don't have a pre-genesis file, you can skip placing anything in this directory.
 
-     Automatically parse and set your alias based on the pre-genesis folder name:
-     ```bash
-     ALIAS=$(basename $(ls -d $HOME/.local/share/namada/pre-genesis/*/) | head -n 1)
-     echo "export ALIAS=$ALIAS" >> ~/.bashrc
-     ```
+  - **Set the chain ID**:
 
-  3. **Set the chain ID**:
+    The chain ID is static for this setup. Set the chain ID as follows:
+    ```bash
+    echo "export CHAIN_ID=public-testnet-14.5d79b6958580" >> ~/.bashrc
+    ```
 
-     The chain ID is static for this setup. Set the chain ID as follows:
-     ```bash
-     echo "export CHAIN_ID=public-testnet-14.5d79b6958580" >> ~/.bashrc
-     ```
+  - **Reload your bash profile** to ensure the environment variables are set:
 
-  4. **Reload your bash profile** to ensure the environment variables are set:
+    ```bash
+    source ~/.bashrc
+    ```
 
-     ```bash
-     source ~/.bashrc
-     ```
+  **NOTE:** If you have a pre-genesis file, it means you are a pre-genesis validator and should proceed to the "Initialization for Pre-Genesis Validators" section below. If you don't have a pre-genesis file, you should proceed to the "Initialization for Full Nodes" section.
 
 </details>
-
-
-
-
 
 <details>
   <summary>Initialization for Pre-Genesis Validators</summary>
 
-  **IMPORTANT:** Only follow these steps if you are a pre-genesis validator. If you are not a pre-genesis validator, please skip this section.
+  - **Set your validator alias**:
 
+    Automatically parse and set your alias based on the pre-genesis folder name:
+    ```bash
+    ALIAS=$(basename $(ls -d $HOME/.local/share/namada/pre-genesis/*/) | head -n 1)
+    echo "export ALIAS=$ALIAS" >> ~/.bashrc
+    ```
 
-  3. **Join the network**:
-     ```bash
-     namada client utils join-network --chain-id $CHAIN_ID --genesis-validator $ALIAS
-     ```
+  - **Join the network as a validator**:
 
+    ```bash
+    namada client utils join-network --chain-id $CHAIN_ID --genesis-validator $ALIAS
+    ```
 
 </details>
-
-
 
 <details>
   <summary>Initialization for Full Nodes</summary>
 
-  1. **Navigate to the home directory**:
-     ```bash
-     cd $HOME
-     ```
+  - **Navigate to the home directory**:
+    ```bash
+    cd $HOME
+    ```
 
-  2. **Join the network**:
-     ```bash
-     namada client utils join-network --chain-id $CHAIN_ID
-     ```
+  - **Join the network**:
+    ```bash
+    namada client utils join-network --chain-id $CHAIN_ID
+    ```
 
 </details>
 
