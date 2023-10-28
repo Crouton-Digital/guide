@@ -1,7 +1,7 @@
 ![namadagithab](https://github.com/Crouton-Digital/guide/assets/113435724/cd4429ca-b48d-4d34-9642-af251bfc9f89)
 
 
-## Namada Node Primary Installation Guide
+## Namada Primary Installation Guide
 
 ### ⚙️ Installation of Required Binaries:
 
