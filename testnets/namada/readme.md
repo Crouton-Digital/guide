@@ -50,7 +50,7 @@ Protocol Buffers (or "protobuf") are Google's language-neutral, platform-neutral
   
   - **Set the desired version**:
     ```bash
-    PROTOBUF_TAG="v23.3"
+    PROTOBUF_TAG="v24.4"
     ```
 
   - **Download and extract to a specific folder**:
