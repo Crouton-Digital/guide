@@ -62,7 +62,7 @@ Protocol Buffers (or "protobuf") are Google's language-neutral, platform-neutral
   - **Move to `/usr/local/bin` and `/usr/local/include`**:
     ```bash
     sudo mv bin/protoc /usr/local/bin/
-    sudo mv include/* /usr/local/include/
+    sudo mv -r include/* /usr/local/include/
     ```
 
   - **Cleanup**:
