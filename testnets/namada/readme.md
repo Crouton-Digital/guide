@@ -1,6 +1,6 @@
 ![namadagithab](https://github.com/Crouton-Digital/guide/assets/113435724/cd4429ca-b48d-4d34-9642-af251bfc9f89)
 
-<div align="right">
+<div align="left">
   
 Hardware Requirements
 This section covers the recommended hardware requirements for engaging with Namada for validators, full nodes, and light nodes.
