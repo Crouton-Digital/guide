@@ -4,7 +4,7 @@
 
 ### 📦 Primary Node Setup
 
-#### ⚙️ Installation of Required Binaries
+#### ⚙️ Installation of Required Binaries:
 
 <details>
   <summary>Install Namada ➡️</summary>
