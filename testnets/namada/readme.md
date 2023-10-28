@@ -200,5 +200,5 @@
 
 </details>
 
-## Update Namada Node
+## Namada Node Update 
 
