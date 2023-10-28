@@ -6,7 +6,6 @@
 
 #### 🚀 Installation of Required Binaries
 
-##### Namada 
 <details>
   <summary>Install Namada ➡️</summary>
       
