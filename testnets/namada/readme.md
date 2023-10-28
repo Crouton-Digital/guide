@@ -147,7 +147,7 @@
 </details>
 
 <details>
-  <summary>Initialization for Full Nodes</summary>
+  <summary>Initialization for Full Nodes & Post-Genesis Validators</summary>
 
   - **Join the network**:
     ```bash
