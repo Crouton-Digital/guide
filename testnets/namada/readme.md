@@ -115,3 +115,7 @@
   _[This section will guide users on how to create a system service so that the Namada node starts up automatically. It will include steps for creating a systemd service, enabling it, and checking its status.]_
 
 </details>
+
+### Update Node 
+
+### Delete Node 
