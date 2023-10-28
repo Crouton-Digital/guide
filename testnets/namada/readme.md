@@ -118,9 +118,10 @@
 
   - **Set the chain ID**:
 
-    The chain ID is static for this setup. Set the chain ID as follows:
+  Set the chain ID as follows:
     ```bash
-    echo "export CHAIN_ID=public-testnet-14.5d79b6958580" >> ~/.bashrc
+    CHAIN_ID=public-testnet-14.5d79b6958580
+    echo "export CHAIN_ID=$CHAIN_ID" >> ~/.bashrc
     ```
 
   - **Reload your bash profile** to ensure the environment variables are set:
