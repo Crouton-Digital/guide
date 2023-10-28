@@ -113,45 +113,42 @@
 To ensure that the Namada node starts automatically and runs as a system service, follow these steps:
 
   - **Create the Systemd Service File**:
-
-   ```bash
-   sudo tee /etc/systemd/system/namadad.service > /dev/null <<EOF
-   [Unit]
-   Description=namada
-   After=network-online.target
-   [Service]
-   User=$USER
-   WorkingDirectory=$HOME/.local/share/namada
-   Environment=TM_LOG_LEVEL=p2p:none,pex:error
-   Environment=NAMADA_CMT_STDOUT=true
-   ExecStart=/usr/local/bin/namada node ledger run 
-   StandardOutput=syslog
-   StandardError=syslog
-   Restart=always
-   RestartSec=10
-   LimitNOFILE=65535
-   [Install]
-   WantedBy=multi-user.target
-   EOF
+    ```bash
+    sudo tee /etc/systemd/system/namadad.service > /dev/null <<EOF
+    [Unit]
+    Description=namada
+    After=network-online.target
+    [Service]
+    User=$USER
+    WorkingDirectory=$HOME/.local/share/namada
+    Environment=TM_LOG_LEVEL=p2p:none,pex:error
+    Environment=NAMADA_CMT_STDOUT=true
+    ExecStart=/usr/local/bin/namada node ledger run 
+    StandardOutput=syslog
+    StandardError=syslog
+    Restart=always
+    RestartSec=10
+    LimitNOFILE=65535
+    [Install]
+    WantedBy=multi-user.target
+    EOF
    ```
 
   - **Reload the Systemd Configuration:**
-
-```bash
-sudo systemctl daemon-reload
-```
+    ```bash
+    sudo systemctl daemon-reload
+    ```
 
   - **Enable and Start the Service:**
-
-```bash
-sudo systemctl enable namadad
-sudo systemctl restart namadad
-```
+    ```bash
+    sudo systemctl enable namadad
+    sudo systemctl restart namadad
+    ```
 
   - **Monitor the Service Logs:**
-```bash
-sudo journalctl -u namadad -f -o ca
-```
+    ```bash
+    sudo journalctl -u namadad -f -o ca
+    ```
 
 </details>
 
