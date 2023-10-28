@@ -1,11 +1,13 @@
 ![namadagithub](https://github.com/Crouton-Digital/guide/assets/113435724/bd6273b8-5b47-4201-b6c6-4cacbe9df032)
 
-## 🛠 Installation Guide
+## 🛠 **Namada Node Setup Guide**
 
-### 🚀 Namada 
+### 🚀 **1. Installation of Required Binaries**
+
+#### 🛠 **Namada** 
 
 **Description:**  
-Namada is a powerful tool designed for [short description or purpose of the tool]. Experience [specific advantages or features] with this tool.
+Namada is a crucial binary for running the Namada node. Ensure that you have the latest version for optimal performance and security.
 
 <details>
   <summary>📦 Install Namada ➡️</summary>
@@ -40,10 +42,10 @@ Namada is a powerful tool designed for [short description or purpose of the tool
 
 ---
 
-### 🔄 Protocol Buffers 
+#### 🔄 **Protocol Buffers** 
 
 **Description:**  
-Protocol Buffers (or "protobuf") are Google's language-neutral, platform-neutral mechanism. Install it to efficiently read and write data across languages.
+Protocol Buffers (or "protobuf") are essential for data serialization in the Namada node. They enable efficient data reading and writing across different languages.
 
 <details>
   <summary>📦 Install Protocol Buffers ➡️</summary>
@@ -77,13 +79,12 @@ Protocol Buffers (or "protobuf") are Google's language-neutral, platform-neutral
 
 </details>
 
-
 ---
 
-### 🌌 CometBFT 
+#### 🌌 **CometBFT** 
 
 **Description:**  
-CometBFT is [short description or purpose of the tool]. With CometBFT, you can [specific advantages or features].
+CometBFT aids in the consensus mechanism of the Namada node. Ensure its latest version is installed for the best node performance.
 
 <details>
   <summary>📦 Install CometBFT ➡️</summary>
@@ -116,5 +117,14 @@ CometBFT is [short description or purpose of the tool]. With CometBFT, you can [
 
 </details>
 
+---
+
+### 🚀 **2. Node Initialization**
+
+_[Here we'll describe the steps required for initializing the Namada node after the required binaries are installed. This will include configuration, setting up directories, etc.]_
 
 ---
+
+### 🚀 **3. Service Creation for Node Startup**
+
+_[This section will guide users on how to create a system service so that the Namada node starts up automatically. It will include steps for creating a systemd service, enabling it, and checking its status.]_
