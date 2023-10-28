@@ -111,8 +111,6 @@
 <details>
   <summary>Service Creation</summary>
 
-To ensure that the Namada node starts automatically and runs as a system service, follow these steps:
-
   - **Create the Systemd Service File**:
     ```bash
     sudo tee /etc/systemd/system/namadad.service > /dev/null <<EOF
