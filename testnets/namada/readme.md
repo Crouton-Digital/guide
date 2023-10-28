@@ -2,7 +2,7 @@
 
 ## Namada Node Setup Guide
 
-### 📦 1. Primary Node Setup
+### 📦 Primary Node Setup
 
 #### 🚀 Installation of Required Binaries
 
