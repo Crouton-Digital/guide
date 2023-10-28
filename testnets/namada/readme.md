@@ -93,20 +93,20 @@ CometBFT is [short description or purpose of the tool]. With CometBFT, you can [
     COMETBFT_TAG="v0.37.2"
     ```
 
-  - **Download and extract**:
+  - **Download and extract to a specific folder**:
     ```bash
     curl -L -o cometbft.tar.gz "https://github.com/cometbft/cometbft/releases/download/$COMETBFT_TAG/cometbft_${COMETBFT_TAG#v}_linux_amd64.tar.gz"
-    tar -xvf cometbft.tar.gz
+    mkdir cometbft_temp && tar -xvf cometbft.tar.gz -C cometbft_temp/
     ```
 
   - **Move to `/usr/local/bin`**:
     ```bash
-    sudo mv cometbft_${COMETBFT_TAG#v}_linux_amd64/cometbft /usr/local/bin/
+    sudo mv cometbft_temp/cometbft_${COMETBFT_TAG#v}_linux_amd64/cometbft /usr/local/bin/
     ```
 
   - **Cleanup**:
     ```bash
-    rm -rf cometbft_${COMETBFT_TAG#v}_linux_amd64 cometbft.tar.gz
+    rm -rf cometbft_temp cometbft.tar.gz
     ```
 
   - **Verify the installation**:
