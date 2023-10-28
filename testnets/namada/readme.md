@@ -1,6 +1,7 @@
 ![namadagithab](https://github.com/Crouton-Digital/guide/assets/113435724/cd4429ca-b48d-4d34-9642-af251bfc9f89)
 
 ### ⚙️ Installation of Required Binaries:
+**Follow these steps to install the necessary binaries for your node.**
 
 <details>
   <summary>Install Namada</summary>
@@ -99,7 +100,7 @@
 ### 🌟 Node Initialization:
 
 <details>
-  <summary>Prepare Directories and Set Chain ID</summary>
+  <summary>Preparation</summary>
 
   - **Create the required directories**:
     ```bash
@@ -114,7 +115,7 @@
     echo "export CHAIN_ID=$CHAIN_ID" >> ~/.bashrc
     ```
 
-    **NOTE:** 
+    **Guidance:** 
     - If you possess a pre-genesis file, proceed to the "Initialization for Pre-Genesis Validators" section. 
     - If you don't have a pre-genesis file but aim to be a validator post-genesis or run a full node, proceed to "Initialization for Full Nodes & Post-Genesis Validators".
 
@@ -147,6 +148,7 @@
 </details>
 
 ### 🔄 Service Creation for Node Startup:
+**This section guides you through setting up the service to ensure your node starts up correctly.**
 
 <details>
   <summary>Service Creation and Monitoring</summary>
@@ -194,7 +196,7 @@
 ### 🌐 Additional Steps for Post-Genesis Validators:
 
 <details>
-  <summary>Post-Genesis Validators Setup</summary>
+  <summary>Setup for Post-Genesis Validators/summary>
 
   - **Check for full synchronization**:
     Before proceeding, ensure that your node is fully synchronized. You can check the synchronization status with:
