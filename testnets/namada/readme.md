@@ -1,6 +1,6 @@
 ![namadagithab](https://github.com/Crouton-Digital/guide/assets/113435724/cd4429ca-b48d-4d34-9642-af251bfc9f89)
 
-### ⚙️ Installation of Required Binaries:
+### ⚙️ `Installation of Required Binaries:`
 **Description:** *This section provides instructions on how to install the necessary software components to run and manage a Namada node.*
 
 <details>
@@ -97,7 +97,7 @@
 
 </details>
 
-### 🌟 Node Initialization:
+### 🌟 `Node Initialization:`
 **Description:** *Here, you'll find steps on how to set up and initialize your node, whether you're a pre-genesis validator or aiming to run a full node.*
 
 
@@ -149,7 +149,7 @@
 
 </details>
 
-### 🔄 Service Creation for Node Startup:
+### 🔄 `Service Creation for Node Startup:`
 **Description:** *This section covers how to configure your node to run as a service, ensuring it starts correctly upon boot or after any potential crashes.*
 
 <details>
@@ -195,7 +195,7 @@
 
 </details>
 
-### 🌐 Additional Steps for Post-Genesis Validators:
+### 🌐 `Additional Steps for Post-Genesis Validators:`
 **Description:** *If you intend to become a validator after the network genesis, this section provides the additional steps required.*
 
 <details>
