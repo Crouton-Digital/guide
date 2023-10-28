@@ -1,3 +1,6 @@
+![test](https://github.com/Crouton-Digital/guide/assets/113435724/7cfd7024-287c-4c03-b10d-302b1eeb0057)
+
+
 ---
 
 ## Installation Guide 🛠
