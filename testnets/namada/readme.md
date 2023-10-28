@@ -1,24 +1,41 @@
 ![namadagithab](https://github.com/Crouton-Digital/guide/assets/113435724/cd4429ca-b48d-4d34-9642-af251bfc9f89)
 
-<div style="float: left; width: 500px; margin-right: 20px;">
-
-Hardware Requirements
-This section covers the recommended hardware requirements for engaging with Namada for validators, full nodes, and light nodes.
-
-Resource Requirements
-*Note that storage size will be dependent on the level of pruning.
-
+<div style="display: flex; justify-content: space-between;">
+  <div style="width: 500px; padding-right: 20px;">
+    <p>Hardware Requirements</p>
+    <p>This section covers the recommended hardware requirements for engaging with Namada for validators, full nodes, and light nodes.</p>
+    <p>Resource Requirements<br>*Note that storage size will be dependent on the level of pruning.</p>
+  </div>
+  <div>
+    <table align="right">
+      <tr>
+        <th>Node Type</th>
+        <th>RAM</th>
+        <th>SSD</th>
+        <th>Number of Cores</th>
+      </tr>
+      <tr>
+        <td>Validator</td>
+        <td>8GB</td>
+        <td>1TB*</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Full Node</td>
+        <td>8GB</td>
+        <td>1TB</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Light Node</td>
+        <td>TBD</td>
+        <td>TBD</td>
+        <td>TBD</td>
+      </tr>
+    </table>
+  </div>
 </div>
 
-<div style="text-align: right;">
-
-| Node Type   | RAM   | SSD    | Number of Cores |
-|-------------|-------|--------|------------------|
-| Validator   | 8GB   | 1TB*   | 4                |
-| Full Node   | 8GB   | 1TB    | 2                |
-| Light Node  | TBD   | TBD    | TBD              |
-
-</div>
 
 
 
