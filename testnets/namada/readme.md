@@ -1,4 +1,9 @@
 ![namadagithab](https://github.com/Crouton-Digital/guide/assets/113435724/cd4429ca-b48d-4d34-9642-af251bfc9f89)
+| Node Type   | RAM   | SSD    | Number of Cores |
+|-------------|-------|--------|------------------|
+| Validator   | 8GB   | 1TB*   | 4                |
+| Full Node   | 8GB   | 1TB    | 2                |
+| Light Node  | TBD   | TBD    | TBD              |
 
 
 ## Namada Node Setup Guide
