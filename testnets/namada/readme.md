@@ -156,11 +156,6 @@
 <details>
   <summary>Initialization for Full Nodes</summary>
 
-  - **Navigate to the home directory**:
-    ```bash
-    cd $HOME
-    ```
-
   - **Join the network**:
     ```bash
     namada client utils join-network --chain-id $CHAIN_ID
