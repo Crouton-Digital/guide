@@ -37,7 +37,6 @@
 
 </details>
 
-##### Protocol Buffers 
 <details>
   <summary>Install Protocol Buffers ➡️</summary>
       
@@ -70,7 +69,6 @@
 
 </details>
 
-##### CometBFT 
 <details>
   <summary>Install CometBFT ➡️</summary>
       
