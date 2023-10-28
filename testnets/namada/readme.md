@@ -112,7 +112,7 @@
 
 To ensure that the Namada node starts automatically and runs as a system service, follow these steps:
 
-**Create the Systemd Service File**:
+  - **Create the Systemd Service File**:
 
    ```bash
    sudo tee /etc/systemd/system/namadad.service > /dev/null <<EOF
@@ -135,25 +135,25 @@ To ensure that the Namada node starts automatically and runs as a system service
    EOF
    ```
 
-**Reload the Systemd Configuration:**
+  - **Reload the Systemd Configuration:**
 
 ```bash
 sudo systemctl daemon-reload
 ```
 
-**Enable and Start the Service:**
+  - **Enable and Start the Service:**
 
 ```bash
 sudo systemctl enable namadad
 sudo systemctl restart namadad
 ```
 
-**Monitor the Service Logs:**
+  - **Monitor the Service Logs:**
 ```bash
 sudo journalctl -u namadad -f -o ca
 ```
 
 </details>
-```
+
 
 
