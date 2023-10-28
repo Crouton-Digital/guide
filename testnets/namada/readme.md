@@ -101,7 +101,6 @@
 
 ### 🌟 Node Initialization:
 
-### 🔧 Pre-Initialization Setup:
 
 <details>
   <summary>Prepare for Initialization</summary>
