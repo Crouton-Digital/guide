@@ -147,25 +147,12 @@
 
   **IMPORTANT:** Only follow these steps if you are a pre-genesis validator. If you are not a pre-genesis validator, please skip this section.
 
-  1. **Setup the directory**:
-     ```bash
-     mkdir $HOME/.local/share/namada
-     ```
-
-  2. **Copy the pre-genesis data**:
-     ```bash
-     cp -r $HOME/namada_backup/pre-genesis* $HOME/.local/share/namada/
-     ```
 
   3. **Join the network**:
      ```bash
-     namada client utils join-network --chain-id $CHAIN_ID --genesis-validator $VALIDATOR_ALIAS
+     namada client utils join-network --chain-id $CHAIN_ID --genesis-validator $ALIAS
      ```
 
-  4. **Restart the service and monitor logs**:
-     ```bash
-     sudo systemctl restart namadad && sudo journalctl -u namadad -f -o cat 
-     ```
 
 </details>
 
@@ -182,11 +169,6 @@
   2. **Join the network**:
      ```bash
      namada client utils join-network --chain-id $CHAIN_ID
-     ```
-
-  3. **Start the service and monitor logs**:
-     ```bash
-     sudo systemctl start namadad && sudo journalctl -u namadad -f -o cat 
      ```
 
 </details>
