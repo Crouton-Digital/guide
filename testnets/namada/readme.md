@@ -105,45 +105,31 @@
   <summary>Prepare for Initialization</summary>
 
   - **Create the required directories**:
-
-    Create the main directory for pre-genesis or full-node:
     ```bash
     mkdir -p $HOME/.local/share/namada/pre-genesis/
     ```
 
-    If you have a pre-genesis file, you should place it inside the created directory. For example, if your alias is `CroutonDigital`, the file should be placed in:
-    `$HOME/.local/share/namada/pre-genesis/CroutonDigital/`.
-
-    If you don't have a pre-genesis file, you can skip placing anything in this directory.
+    If you have a pre-genesis file, place it inside the directory. For instance, if your alias is `CroutonDigital`, the file should be located at `$HOME/.local/share/namada/pre-genesis/CroutonDigital/`.
 
   - **Set the chain ID**:
-
-    Set the chain ID as follows:
     ```bash
     CHAIN_ID=public-testnet-14.5d79b6958580
     echo "export CHAIN_ID=$CHAIN_ID" >> ~/.bashrc
     ```
-**NOTE:** 
-- If you have a pre-genesis file, it means you are a pre-genesis validator and should proceed to the "Initialization for Pre-Genesis Validators" section below. 
-- If you don't have a pre-genesis file but plan to become a validator after the genesis, refer to the documentation on becoming a Post-Genesis Validator.
-- If you aim to run a full node without validating, proceed to the "Initialization for Full Nodes" section.
+
+    **NOTE:** 
+    - If you possess a pre-genesis file, proceed to the "Initialization for Pre-Genesis Validators" section. 
+    - If you don't have a pre-genesis file but aim to be a validator post-genesis or run a full node, proceed to "Initialization for Full Nodes & Post-Genesis Validators".
 
 </details>
 
 <details>
   <summary>Initialization for Pre-Genesis Validators</summary>
 
-  - **Set your validator alias**:
-
-    Automatically parse and set your alias based on the pre-genesis folder name:
+  - **Join the network as a validator**:
     ```bash
     ALIAS=$(basename $(ls -d $HOME/.local/share/namada/pre-genesis/*/) | head -n 1)
     echo "export ALIAS=$ALIAS" >> ~/.bashrc
-    ```
-
-  - **Join the network as a validator**:
-
-    ```bash
     namada client utils join-network --chain-id $CHAIN_ID --genesis-validator $ALIAS
     ```
 
@@ -157,7 +143,29 @@
     namada client utils join-network --chain-id $CHAIN_ID
     ```
 
+  - **Optionally, set your validator alias if becoming a Post-Genesis Validator**:
+    ```bash
+    ALIAS=<your-validator-alias-here>
+    echo "export ALIAS=$ALIAS" >> ~/.bashrc
+    ```
+
+  - **Generate a validator account (optional for Post-Genesis Validators)**:
+    ```bash
+    namada wallet address gen --alias $ALIAS
+    ```
+
+  - **Initialize the validator account (optional for Post-Genesis Validators)**:
+    ```bash
+    namada client init-validator \
+      --alias $ALIAS \
+      --account-keys $ALIAS \
+      --signing-keys $ALIAS \
+      --commission-rate <enter-your-commission-rate> \
+      --max-commission-rate-change <enter-decimal-rate>
+    ```
+
 </details>
+
 
 ### 🔄 Service Creation for Node Startup:
 <details>
