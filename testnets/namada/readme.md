@@ -53,21 +53,21 @@ Protocol Buffers (or "protobuf") are Google's language-neutral, platform-neutral
     PROTOBUF_TAG="v23.3"
     ```
 
-  - **Download and extract**:
+  - **Download and extract to a specific folder**:
     ```bash
     curl -L -o protobuf.zip "https://github.com/protocolbuffers/protobuf/releases/download/$PROTOBUF_TAG/protoc-${PROTOBUF_TAG#v}-linux-x86_64.zip"
-    unzip protobuf.zip
+    mkdir protobuf_temp && unzip protobuf.zip -d protobuf_temp/
     ```
 
   - **Move to `/usr/local/bin` and `/usr/local/include`**:
     ```bash
-    sudo mv bin/protoc /usr/local/bin/
-    sudo mv -r include/* /usr/local/include/
+    sudo cp protobuf_temp/bin/protoc /usr/local/bin/
+    sudo cp -r protobuf_temp/include/* /usr/local/include/
     ```
 
   - **Cleanup**:
     ```bash
-    rm -rf protobuf.zip bin include
+    rm -rf protobuf_temp protobuf.zip
     ```
 
   - **Verify the installation**:
@@ -76,6 +76,7 @@ Protocol Buffers (or "protobuf") are Google's language-neutral, platform-neutral
     ```
 
 </details>
+
 
 ---
 
