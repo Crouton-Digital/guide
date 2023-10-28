@@ -6,7 +6,7 @@ Below are the step-by-step installation instructions for various tools. Each too
 
 ---
 
-### 🚀 Namada 
+#### 🚀 Namada 
 
 **Description:**  
 Namada is a powerful tool designed for [short description or purpose of the tool]. Experience [specific advantages or features] with this tool.
@@ -21,7 +21,7 @@ Namada is a powerful tool designed for [short description or purpose of the tool
 
   - **Download and extract**:
     ```bash
-    curl -L -o namada.tar.gz "https://github.com/anoma/namada/releases/download/$NAMADA_TAG/namada-${NAMADA_TAG#v}-Linux-x86_64.tar.gz"
+    curl -L -o namada.tar.gz "https://github.com/anoma/namada/releases/download/$NAMADA_TAG/namada-${NAMADA_TAG}-Linux-x86_64.tar.gz"
     tar -xvf namada.tar.gz
     ```
 
