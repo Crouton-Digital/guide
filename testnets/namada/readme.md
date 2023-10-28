@@ -95,11 +95,10 @@
     ```
 
 </details>
-
 ### 🌟 Node Initialization:
 
 <details>
-  <summary>Prepare</summary>
+  <summary>Prepare Directories and Set Chain ID</summary>
 
   - **Create the required directories**:
     ```bash
@@ -137,47 +136,18 @@
 </details>
 
 <details>
-  <summary>For Full Nodes & Post-Genesis Validators</summary>
+  <summary>For Full Nodes & Intending Post-Genesis Validators</summary>
 
   - **Join the network**:
     ```bash
     namada client utils join-network --chain-id $CHAIN_ID
     ```
 
-  - **Check for full synchronization**:
-    Before initializing the validator account, ensure that the node is fully synchronized. You can check the synchronization status with:
-    ```bash
-    curl -s localhost:26657/status | grep "catching_up"
-    ```
-    Wait until you see `"catching_up": false` before proceeding.
-
-  - **Optionally, set your validator alias if becoming a Post-Genesis Validator**:
-    ```bash
-    ALIAS=<your-validator-alias-here>
-    echo "export ALIAS=$ALIAS" >> ~/.bashrc
-    ```
-
-  - **Generate a validator account (optional for Post-Genesis Validators)**:
-    ```bash
-    namada wallet address gen --alias $ALIAS
-    ```
-
-  - **Initialize the validator account (optional for Post-Genesis Validators)**:
-    ```bash
-    namada client init-validator \
-      --alias $ALIAS \
-      --account-keys $ALIAS \
-      --signing-keys $ALIAS \
-      --commission-rate <enter-your-commission-rate> \
-      --max-commission-rate-change <enter-decimal-rate>
-    ```
-
 </details>
-
-
 ### 🔄 Service Creation for Node Startup:
+
 <details>
-  <summary>Service Creation</summary>
+  <summary>Service Creation and Monitoring</summary>
 
   - **Create the Systemd Service File**:
     ```bash
@@ -218,5 +188,37 @@
     ```
 
 </details>
+### 🌐 Additional Steps for Post-Genesis Validators:
 
+<details>
+  <summary>Post-Genesis Validators Setup</summary>
 
+  - **Check for full synchronization**:
+    Before proceeding, ensure that your node is fully synchronized. You can check the synchronization status with:
+    ```bash
+    curl -s localhost:26657/status | grep "catching_up"
+    ```
+    Wait until you see `"catching_up": false` before proceeding to the next steps.
+
+  - **Set Validator Alias**:
+    ```bash
+    ALIAS=<your-validator-alias-here>
+    echo "export ALIAS=$ALIAS" >> ~/.bashrc
+    ```
+
+  - **Generate a Validator Account**:
+    ```bash
+    namada wallet address gen --alias $ALIAS
+    ```
+
+  - **Initialize the Validator Account**:
+    ```bash
+    namada client init-validator \
+      --alias $ALIAS \
+      --account-keys $ALIAS \
+      --signing-keys $ALIAS \
+      --commission-rate <enter-your-commission-rate> \
+      --max-commission-rate-change <enter-decimal-rate>
+    ```
+
+</details>
