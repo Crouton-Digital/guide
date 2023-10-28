@@ -2,7 +2,7 @@
 
 ## Namada Node Setup Guide
 
-### 1. Primary Node Setup
+### 📦 1. Primary Node Setup
 <details>
   <summary>Primary Node Setup ➡️</summary>
 
@@ -10,7 +10,7 @@
   <details>
     <summary>Install Required Binaries ➡️</summary>
 
-    ##### Namada 
+    ##### 🚀 Namada 
 
     **Description:**  
     Namada is a crucial binary for running the Namada node. Ensure that you have the latest version for optimal performance and security.
@@ -48,7 +48,7 @@
 
     --- 
 
-    ##### Protocol Buffers 
+    ##### 🔄 Protocol Buffers 
 
     **Description:**  
     Protocol Buffers (or "protobuf") are essential for data serialization in the Namada node. They enable efficient data reading and writing across different languages.
@@ -87,7 +87,7 @@
 
     --- 
 
-    ##### CometBFT 
+    ##### 🌌 CometBFT 
 
     **Description:**  
     CometBFT aids in the consensus mechanism of the Namada node. Ensure its latest version is installed for the best node performance.
