@@ -101,7 +101,50 @@
 
 ### 🌟 Node Initialization:
 
+### 🔧 Pre-Initialization Setup:
 
+<details>
+  <summary>Prepare for Initialization</summary>
+
+  1. **Create the required directories**:
+
+     - Create the directory for the pre-genesis backup:
+       ```bash
+       mkdir -p $HOME/.local/share/namada/pre-genesis/
+       ```
+
+  2. **Transfer your pre-genesis backup**:
+     
+     Transfer your backup (for example, `CroutonDigital`) to the server under `$HOME/.local/share/namada/pre-genesis/`.
+
+     ```bash
+     # Example for creating CroutonDigital directory
+     mkdir $HOME/.local/share/namada/pre-genesis/CroutonDigital/
+     ```
+
+  3. **Set your alias**:
+
+     Replace `YourAliasHere` with your actual alias (e.g., `CroutonDigital`):
+     ```bash
+     echo "export ALIAS=YourAliasHere" >> ~/.bashrc
+     ```
+
+  4. **Set the chain ID**:
+
+     Replace `YourChainIDHere` with the actual chain ID (e.g., `public-testnet-14.5d79b6958580`):
+     ```bash
+     echo "export CHAIN_ID=YourChainIDHere" >> ~/.bashrc
+     ```
+
+     **Note:** Ensure you've set the correct chain ID. If in doubt, refer to the latest chain ID posted in the Discord channel.
+
+  5. **Reload your bash profile** to make sure the environment variables are set:
+
+     ```bash
+     source ~/.bashrc
+     ```
+
+</details>
 
 <details>
   <summary>Initialization for Pre-Genesis Validators</summary>
