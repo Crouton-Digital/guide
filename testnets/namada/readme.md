@@ -118,7 +118,7 @@
 
   - **Set the chain ID**:
 
-  Set the chain ID as follows:
+    Set the chain ID as follows:
     ```bash
     CHAIN_ID=public-testnet-14.5d79b6958580
     echo "export CHAIN_ID=$CHAIN_ID" >> ~/.bashrc
