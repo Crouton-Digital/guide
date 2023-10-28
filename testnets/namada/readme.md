@@ -147,6 +147,13 @@
     namada client utils join-network --chain-id $CHAIN_ID
     ```
 
+  - **Check for full synchronization**:
+    Before initializing the validator account, ensure that the node is fully synchronized. You can check the synchronization status with:
+    ```bash
+    curl -s localhost:26657/status | grep "catching_up"
+    ```
+    Wait until you see `"catching_up": false` before proceeding.
+
   - **Optionally, set your validator alias if becoming a Post-Genesis Validator**:
     ```bash
     ALIAS=<your-validator-alias-here>
