@@ -1,7 +1,7 @@
 ![namadagithab](https://github.com/Crouton-Digital/guide/assets/113435724/cd4429ca-b48d-4d34-9642-af251bfc9f89)
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <div style="flex: 1;">
+<div style="display: flex;">
+  <div style="flex: 1; padding-right: 20px;">
     <p><strong>Hardware Requirements</strong></p>
     <p>This section covers the recommended hardware requirements for engaging with Namada for validators, full nodes, and light nodes.</p>
     <p><em>Note that storage size will be dependent on the level of pruning.</em></p>
@@ -35,7 +35,6 @@
     </table>
   </div>
 </div>
-
 
 
 
