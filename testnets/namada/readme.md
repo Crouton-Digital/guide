@@ -1,4 +1,5 @@
-![test](https://github.com/Crouton-Digital/guide/assets/113435724/7cfd7024-287c-4c03-b10d-302b1eeb0057)
+![namadagithub](https://github.com/Crouton-Digital/guide/assets/113435724/bd6273b8-5b47-4201-b6c6-4cacbe9df032)
+
 ## 🛠 Installation Guide
 
 Below are the step-by-step installation instructions for various tools. Each tool has its set of commands presented in a dropdown format. Simply click on the tool you're interested in to view the detailed installation steps.
