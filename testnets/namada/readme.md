@@ -202,7 +202,7 @@
 
   - **Monitor the Service Logs:**
     ```bash
-    sudo journalctl -u namadad -f -o ca
+    sudo journalctl -u namadad -f -o cat
     ```
 
 </details>
