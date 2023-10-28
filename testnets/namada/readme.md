@@ -2,7 +2,7 @@
 
 ## 🛠 Installation Guide
 
-\### 🚀 Namada 
+### 🚀 Namada 
 
 **Description:**  
 Namada is a powerful tool designed for [short description or purpose of the tool]. Experience [specific advantages or features] with this tool.
