@@ -1,8 +1,9 @@
 ![namadagithub](https://github.com/Crouton-Digital/guide/assets/113435724/bd6273b8-5b47-4201-b6c6-4cacbe9df032)
 
-## 🛠 **Namada Node Setup Guide**
-
 ### 🚀 **1. Installation of Required Binaries**
+
+<details>
+<summary>📦 Installation Details ➡️</summary>
 
 #### 🛠 **Namada** 
 
@@ -10,7 +11,7 @@
 Namada is a crucial binary for running the Namada node. Ensure that you have the latest version for optimal performance and security.
 
 <details>
-  <summary>📦 Install Namada ➡️</summary>
+  <summary>Install Namada ➡️</summary>
   
   - **Set the desired version**:
     ```bash
@@ -48,7 +49,7 @@ Namada is a crucial binary for running the Namada node. Ensure that you have the
 Protocol Buffers (or "protobuf") are essential for data serialization in the Namada node. They enable efficient data reading and writing across different languages.
 
 <details>
-  <summary>📦 Install Protocol Buffers ➡️</summary>
+  <summary>Install Protocol Buffers ➡️</summary>
   
   - **Set the desired version**:
     ```bash
@@ -87,7 +88,7 @@ Protocol Buffers (or "protobuf") are essential for data serialization in the Nam
 CometBFT aids in the consensus mechanism of the Namada node. Ensure its latest version is installed for the best node performance.
 
 <details>
-  <summary>📦 Install CometBFT ➡️</summary>
+  <summary>Install CometBFT ➡️</summary>
   
   - **Set the desired version**:
     ```bash
@@ -114,6 +115,8 @@ CometBFT aids in the consensus mechanism of the Namada node. Ensure its latest v
     ```bash
     cometbft version
     ```
+
+</details>
 
 </details>
 
