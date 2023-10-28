@@ -1,20 +1,18 @@
 ![test](https://github.com/Crouton-Digital/guide/assets/113435724/7cfd7024-287c-4c03-b10d-302b1eeb0057)
 
+## 🛠 Installation Guide
+
+Below are the step-by-step installation instructions for various tools. Each tool has its set of commands presented in a dropdown format. Simply click on the tool you're interested in to view the detailed installation steps.
 
 ---
 
-## Installation Guide 🛠
+### 🚀 Namada 
 
-Below are the step-by-step installation instructions for various tools. Each tool has its set of commands presented in a dropdown format. Simply click on the tool you're interested in to view the detailed installation steps. Follow along to ensure a smooth setup.
-
----
-
-### Namada 🚀
-
-Namada is a powerful tool designed to [short description or purpose of the tool]. Installing it ensures [specific advantages or features].
+**Description:**  
+Namada is a powerful tool designed for [short description or purpose of the tool]. Experience [specific advantages or features] with this tool.
 
 <details>
-  <summary>📦 Install Namada</summary>
+  <summary>Click to view installation steps ➡️</summary>
   
   - **Set the desired version**:
     ```bash
@@ -43,12 +41,15 @@ Namada is a powerful tool designed to [short description or purpose of the tool]
 
 </details>
 
-### Protocol Buffers 🔄
+---
 
-Protocol Buffers (or "protobuf") are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data. By installing Protocol Buffers, you can efficiently read and write data from different languages.
+### 🔄 Protocol Buffers 
+
+**Description:**  
+Protocol Buffers (or "protobuf") are Google's language-neutral, platform-neutral mechanism. Install it to efficiently read and write data across languages.
 
 <details>
-  <summary>📦 Install Protocol Buffers</summary>
+  <summary>Click to view installation steps ➡️</summary>
   
   - **Set the desired version**:
     ```bash
@@ -72,3 +73,5 @@ Protocol Buffers (or "protobuf") are Google's language-neutral, platform-neutral
     ```
 
 </details>
+
+---
