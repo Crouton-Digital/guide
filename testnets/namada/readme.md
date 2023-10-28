@@ -2,7 +2,7 @@
 
 ## Namada Node Setup Guide
 
-#### ⚙️ Installation of Required Binaries:
+### ⚙️ Installation of Required Binaries:
 
 <details>
   <summary>Install Namada</summary>
@@ -98,7 +98,7 @@
 
 </details>
 
-#### 🌟 Node Initialization:
+### 🌟 Node Initialization:
 <details>
   <summary>Node Initialization</summary>
 
@@ -106,7 +106,7 @@
 
 </details>
 
-#### 🔄 Service Creation for Node Startup:
+### 🔄 Service Creation for Node Startup:
 <details>
   <summary>Service Creation</summary>
 
