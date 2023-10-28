@@ -101,7 +101,7 @@
 
 ### 🌟 Node Initialization:
 
-#### For Pre-Genesis Validators:
+
 
 <details>
   <summary>Initialization for Pre-Genesis Validators</summary>
@@ -130,7 +130,7 @@
 
 </details>
 
-#### For Full Nodes (Post-Genesis):
+
 
 <details>
   <summary>Initialization for Full Nodes</summary>
