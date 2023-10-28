@@ -1,4 +1,10 @@
-## Installation Instructions
+---
+
+## Installation Guide 🛠
+
+Below are the step-by-step installation instructions for various tools. Each tool has its set of commands presented in a dropdown format. Simply click on the tool you're interested in to view the detailed installation steps. Follow along to ensure a smooth setup.
+
+---
 
 <details>
   <summary>📦 Install Namada</summary>
