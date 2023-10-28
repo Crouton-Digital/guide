@@ -100,7 +100,7 @@
 
 </details>
 
-#### 🚀 Node Initialization
+#### 🚀 Node Initialization:
 <details>
   <summary>Node Initialization ➡️</summary>
 
@@ -108,7 +108,7 @@
 
 </details>
 
-#### 🚀 Service Creation for Node Startup
+#### 🚀 Service Creation for Node Startup:
 <details>
   <summary>Service Creation ➡️</summary>
 
@@ -116,6 +116,4 @@
 
 </details>
 
-### Update Node 
 
-### Delete Node 
