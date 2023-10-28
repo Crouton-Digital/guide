@@ -132,7 +132,7 @@ To ensure that the Namada node starts automatically and runs as a system service
     [Install]
     WantedBy=multi-user.target
     EOF
-   ```
+    ```
 
   - **Reload the Systemd Configuration:**
     ```bash
