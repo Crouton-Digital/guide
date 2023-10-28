@@ -102,7 +102,7 @@
 ### 🌟 Node Initialization:
 
 <details>
-  <summary>Prepare for Initialization</summary>
+  <summary>Prepare</summary>
 
   - **Create the required directories**:
     ```bash
@@ -124,7 +124,7 @@
 </details>
 
 <details>
-  <summary>Initialization for Pre-Genesis Validators</summary>
+  <summary>For Pre-Genesis Validators</summary>
 
   - **Set your validator alias**:
     ```bash
@@ -140,7 +140,7 @@
 </details>
 
 <details>
-  <summary>Initialization for Full Nodes & Post-Genesis Validators</summary>
+  <summary>For Full Nodes & Post-Genesis Validators</summary>
 
   - **Join the network**:
     ```bash
