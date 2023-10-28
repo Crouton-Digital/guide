@@ -1,57 +1,57 @@
-___
-## Installation
-**Set the TAG variable to the desired version**
-```bash
-TAG="v0.23.1"
-```
+## Installation Instructions
 
-**Download the archive from GitHub**
-```bash
-curl -L -o namada.tar.gz "https://github.com/anoma/namada/releases/download/$TAG/namada-$TAG-Linux-x86_64.tar.gz"
-```
+<details>
+  <summary>📦 Install Namada</summary>
+  
+  - **Set the desired version**:
+    ```bash
+    TAG="v0.23.1"
+    ```
 
-**Extract the downloaded archive**
-```bash
-tar -xvf namada.tar.gz
-```
+  - **Download the archive from GitHub**:
+    ```bash
+    curl -L -o namada.tar.gz "https://github.com/anoma/namada/releases/download/$TAG/namada-$TAG-Linux-x86_64.tar.gz"
+    ```
 
-**Replace old files with the new ones in /usr/local/bin**
-```bash
-sudo cp namada/* /usr/local/bin/
-```
+  - **Extract the downloaded archive**:
+    ```bash
+    tar -xvf namada.tar.gz
+    ```
 
-**Remove temporary files**
-```bash
-rm -rf namada namada.tar.gz
-```
+  - **Replace old files with the new ones**:
+    ```bash
+    sudo cp namada/* /usr/local/bin/
+    ```
 
-**Set the desired Protocol Buffers version tag**
-```bash
-PROTOC_TAG="23.3"
-```
+  - **Cleanup**:
+    ```bash
+    rm -rf namada namada.tar.gz
+    ```
 
-**Construct the URL for downloading Protocol Buffers**
-```bash
-PROTOC_URL="https://github.com/protocolbuffers/protobuf/releases/download/v$PROTOC_TAG/protoc-$PROTOC_TAG-linux-x86_64.zip"
-```
+</details>
 
-**Define the name of the zip file**
-```bash
-PROTOC_ZIP="protoc-$PROTOC_TAG-linux-x86_64.zip"
-```
+<details>
+  <summary>📦 Install Protocol Buffers</summary>
+  
+  - **Set the desired version**:
+    ```bash
+    PROTOC_TAG="23.3"
+    ```
 
-**Download Protocol Buffers**
-```bash
-curl -OL "$PROTOC_URL"
-```
+  - **Download Protocol Buffers from GitHub**:
+    ```bash
+    curl -LO "https://github.com/protocolbuffers/protobuf/releases/download/v$PROTOC_TAG/protoc-$PROTOC_TAG-linux-x86_64.zip"
+    ```
 
-**Install Protocol Buffers**
-```bash
-sudo unzip -o "$PROTOC_ZIP" -d /usr/local bin/protoc
-sudo unzip -o "$PROTOC_ZIP" -d /usr/local 'include/*'
-```
+  - **Extract and install Protocol Buffers**:
+    ```bash
+    sudo unzip -o "protoc-$PROTOC_TAG-linux-x86_64.zip" -d /usr/local bin/protoc
+    sudo unzip -o "protoc-$PROTOC_TAG-linux-x86_64.zip" -d /usr/local 'include/*'
+    ```
 
-**Remove the downloaded zip file**
-```bash
-rm -f "$PROTOC_ZIP"
-```
+  - **Cleanup**:
+    ```bash
+    rm -f "protoc-$PROTOC_TAG-linux-x86_64.zip"
+    ```
+
+</details>
