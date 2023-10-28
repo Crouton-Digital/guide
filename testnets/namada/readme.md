@@ -126,10 +126,14 @@
 <details>
   <summary>Initialization for Pre-Genesis Validators</summary>
 
-  - **Join the network as a validator**:
+  - **Set your validator alias**:
     ```bash
     ALIAS=$(basename $(ls -d $HOME/.local/share/namada/pre-genesis/*/) | head -n 1)
     echo "export ALIAS=$ALIAS" >> ~/.bashrc
+    ```
+
+  - **Join the network as a validator**:
+    ```bash
     namada client utils join-network --chain-id $CHAIN_ID --genesis-validator $ALIAS
     ```
 
