@@ -6,6 +6,10 @@ Below are the step-by-step installation instructions for various tools. Each too
 
 ---
 
+### Namada 🚀
+
+Namada is a powerful tool designed to [short description or purpose of the tool]. Installing it ensures [specific advantages or features].
+
 <details>
   <summary>📦 Install Namada</summary>
   
@@ -35,6 +39,10 @@ Below are the step-by-step installation instructions for various tools. Each too
     ```
 
 </details>
+
+### Protocol Buffers 🔄
+
+Protocol Buffers (or "protobuf") are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data. By installing Protocol Buffers, you can efficiently read and write data from different languages.
 
 <details>
   <summary>📦 Install Protocol Buffers</summary>
