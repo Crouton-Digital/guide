@@ -7,7 +7,7 @@
 #### ⚙️ Installation of Required Binaries:
 
 <details>
-  <summary>Install Namada ➡️</summary>
+  <summary>Install Namada</summary>
       
   - **Set the desired version**:
     ```bash
@@ -38,7 +38,7 @@
 </details>
 
 <details>
-  <summary>Install Protocol Buffers ➡️</summary>
+  <summary>Install Protocol Buffers</summary>
       
   - **Set the desired version**:
     ```bash
@@ -70,7 +70,7 @@
 </details>
 
 <details>
-  <summary>Install CometBFT ➡️</summary>
+  <summary>Install CometBFT</summary>
       
   - **Set the desired version**:
     ```bash
@@ -100,17 +100,17 @@
 
 </details>
 
-#### 🚀 Node Initialization:
+#### 🌟 Node Initialization:
 <details>
-  <summary>Node Initialization ➡️</summary>
+  <summary>Node Initialization</summary>
 
   _[Here we'll describe the steps required for initializing the Namada node after the required binaries are installed. This will include configuration, setting up directories, etc.]_
 
 </details>
 
-#### 🚀 Service Creation for Node Startup:
+#### 🔄 Service Creation for Node Startup:
 <details>
-  <summary>Service Creation ➡️</summary>
+  <summary>Service Creation</summary>
 
   _[This section will guide users on how to create a system service so that the Namada node starts up automatically. It will include steps for creating a systemd service, enabling it, and checking its status.]_
 
