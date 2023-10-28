@@ -215,5 +215,4 @@
 
 </details>
 
-## Namada Node Update 
 
