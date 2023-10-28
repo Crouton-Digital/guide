@@ -190,6 +190,7 @@
     ```
 
 </details>
+
 ### 🌐 Additional Steps for Post-Genesis Validators:
 
 <details>
