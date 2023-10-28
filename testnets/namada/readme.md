@@ -101,7 +101,7 @@ CometBFT is [short description or purpose of the tool]. With CometBFT, you can [
 
   - **Move to `/usr/local/bin`**:
     ```bash
-    sudo mv cometbft_temp/cometbft_${COMETBFT_TAG#v}_linux_amd64/cometbft /usr/local/bin/
+    sudo mv cometbft_temp/cometbft /usr/local/bin/
     ```
 
   - **Cleanup**:
@@ -115,5 +115,6 @@ CometBFT is [short description or purpose of the tool]. With CometBFT, you can [
     ```
 
 </details>
+
 
 ---
