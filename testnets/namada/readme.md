@@ -1,18 +1,16 @@
 ![namadagithub](https://github.com/Crouton-Digital/guide/assets/113435724/bd6273b8-5b47-4201-b6c6-4cacbe9df032)
 
-## 🛠 **Namada Node Setup Guide**
+## Namada Node Setup Guide
 
-### 🚀 **1. Primary Node Setup**
-
+### 1. Primary Node Setup
 <details>
-  <summary>📦 Primary Node Setup ➡️</summary>
+  <summary>Primary Node Setup ➡️</summary>
 
-  #### 🚀 **1.1 Installation of Required Binaries**
-
+  #### 1.1 Installation of Required Binaries
   <details>
-    <summary>📦 Install Required Binaries ➡️</summary>
+    <summary>Install Required Binaries ➡️</summary>
 
-    ##### 🛠 **Namada** 
+    ##### Namada 
 
     **Description:**  
     Namada is a crucial binary for running the Namada node. Ensure that you have the latest version for optimal performance and security.
@@ -50,7 +48,7 @@
 
     --- 
 
-    ##### 🔄 **Protocol Buffers** 
+    ##### Protocol Buffers 
 
     **Description:**  
     Protocol Buffers (or "protobuf") are essential for data serialization in the Namada node. They enable efficient data reading and writing across different languages.
@@ -89,7 +87,7 @@
 
     --- 
 
-    ##### 🌌 **CometBFT** 
+    ##### CometBFT 
 
     **Description:**  
     CometBFT aids in the consensus mechanism of the Namada node. Ensure its latest version is installed for the best node performance.
@@ -127,19 +125,17 @@
 
   </details>
 
-  #### 🚀 **1.2 Node Initialization**
-
+  #### 1.2 Node Initialization
   <details>
-    <summary>📦 Node Initialization ➡️</summary>
+    <summary>Node Initialization ➡️</summary>
 
     _[Here we'll describe the steps required for initializing the Namada node after the required binaries are installed. This will include configuration, setting up directories, etc.]_
 
   </details>
 
-  #### 🚀 **1.3 Service Creation for Node Startup**
-
+  #### 1.3 Service Creation for Node Startup
   <details>
-    <summary>📦 Service Creation ➡️</summary>
+    <summary>Service Creation ➡️</summary>
 
     _[This section will guide users on how to create a system service so that the Namada node starts up automatically. It will include steps for creating a systemd service, enabling it, and checking its status.]_
 
