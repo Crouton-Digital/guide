@@ -106,7 +106,7 @@
 
   - **Create the required directories**:
 
-    Create the main directory for pre-genesis:
+    Create the main directory for pre-genesis or full-node:
     ```bash
     mkdir -p $HOME/.local/share/namada/pre-genesis/
     ```
