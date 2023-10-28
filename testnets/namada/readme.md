@@ -123,7 +123,10 @@
     CHAIN_ID=public-testnet-14.5d79b6958580
     echo "export CHAIN_ID=$CHAIN_ID" >> ~/.bashrc
     ```
-  **NOTE:** If you have a pre-genesis file, it means you are a pre-genesis validator and should proceed to the "Initialization for Pre-Genesis Validators" section below. If you don't have a pre-genesis file, you should proceed to the "Initialization for Full Nodes" section.
+**NOTE:** 
+- If you have a pre-genesis file, it means you are a pre-genesis validator and should proceed to the "Initialization for Pre-Genesis Validators" section below. 
+- If you don't have a pre-genesis file but plan to become a validator after the genesis, refer to the documentation on becoming a Post-Genesis Validator.
+- If you aim to run a full node without validating, proceed to the "Initialization for Full Nodes" section.
 
 </details>
 
