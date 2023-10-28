@@ -107,43 +107,40 @@
 
   1. **Create the required directories**:
 
-     - Create the directory for the pre-genesis backup:
-       ```bash
-       mkdir -p $HOME/.local/share/namada/pre-genesis/
-       ```
-
-  2. **Transfer your pre-genesis backup**:
-     
-     Transfer your backup (for example, `CroutonDigital`) to the server under `$HOME/.local/share/namada/pre-genesis/`.
-
+     Create the main directory for pre-genesis:
      ```bash
-     # Example for creating CroutonDigital directory
-     mkdir $HOME/.local/share/namada/pre-genesis/CroutonDigital/
+     mkdir -p $HOME/.local/share/namada/pre-genesis/
      ```
 
-  3. **Set your alias**:
+     For example, if your alias is `CroutonDigital`, your backup should be placed in:
+     `$HOME/.local/share/namada/pre-genesis/CroutonDigital/`.
 
-     Replace `YourAliasHere` with your actual alias (e.g., `CroutonDigital`):
+  2. **Set your alias**:
+
+     Automatically parse and set your alias based on the pre-genesis folder name:
      ```bash
-     echo "export ALIAS=YourAliasHere" >> ~/.bashrc
+     ALIAS=$(basename $(ls -d $HOME/.local/share/namada/pre-genesis/*/) | head -n 1)
+     echo "export ALIAS=$ALIAS" >> ~/.bashrc
      ```
 
-  4. **Set the chain ID**:
+  3. **Set the chain ID**:
 
-     Replace `YourChainIDHere` with the actual chain ID (e.g., `public-testnet-14.5d79b6958580`):
+     The chain ID is static for this setup. Set the chain ID as follows:
      ```bash
-     echo "export CHAIN_ID=YourChainIDHere" >> ~/.bashrc
+     echo "export CHAIN_ID=public-testnet-14.5d79b6958580" >> ~/.bashrc
      ```
 
-     **Note:** Ensure you've set the correct chain ID. If in doubt, refer to the latest chain ID posted in the Discord channel.
-
-  5. **Reload your bash profile** to make sure the environment variables are set:
+  4. **Reload your bash profile** to ensure the environment variables are set:
 
      ```bash
      source ~/.bashrc
      ```
 
 </details>
+Теперь этот блок содержит команды для создания нужных директорий, а также пример папки CroutonDigital для ваш
+
+
+
 
 <details>
   <summary>Initialization for Pre-Genesis Validators</summary>
