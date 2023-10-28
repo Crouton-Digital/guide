@@ -1,22 +1,21 @@
 ![namadagithab](https://github.com/Crouton-Digital/guide/assets/113435724/cd4429ca-b48d-4d34-9642-af251bfc9f89)
 
-# Hardware Requirements
-
+<div align="right">
+  
+Hardware Requirements
 This section covers the recommended hardware requirements for engaging with Namada for validators, full nodes, and light nodes.
 
-**Resource Requirements**
-*Note that storage size will be dependent on the level of pruning.*
+Resource Requirements
+*Note that storage size will be dependent on the level of pruning.
 
-<details>
-  <summary>Node Specifications</summary>
-  
-  | Node Type   | RAM   | SSD    | Number of Cores |
-  |-------------|-------|--------|------------------|
-  | Validator   | 8GB   | 1TB*   | 4                |
-  | Full Node   | 8GB   | 1TB    | 2                |
-  | Light Node  | TBD   | TBD    | TBD              |
-  
-</details>
+</div>
+
+| Node Type   | RAM   | SSD    | Number of Cores |
+|-------------|-------|--------|------------------|
+| Validator   | 8GB   | 1TB*   | 4                |
+| Full Node   | 8GB   | 1TB    | 2                |
+| Light Node  | TBD   | TBD    | TBD              |
+
 
 
 ## Namada Node Setup Guide
