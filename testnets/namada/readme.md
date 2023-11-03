@@ -2,7 +2,10 @@
 
 ### 🖥️ `Hardware Requirements:`
 **Description:** *This section covers the recommended hardware requirements for engaging with Namada for validators, full nodes and light nodes.*
-![namgit2](https://github.com/Crouton-Digital/guide/assets/83868103/c20b3ff8-4882-4f67-b159-3bee46565a29)
+
+![namgith4](https://github.com/Crouton-Digital/guide/assets/83868103/5d66484e-cb57-4ee8-9e23-4ae96c1d3a5a)
+
+
 
 
 ### ⚙️ `Installation of Required Binaries:`
