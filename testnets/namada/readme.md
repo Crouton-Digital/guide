@@ -16,7 +16,7 @@
       
   - **Set the desired version**:
     ```bash
-    NAMADA_TAG="v0.23.1"
+    NAMADA_TAG="v0.28.0"
     ```
 
   - **Download and extract**:
