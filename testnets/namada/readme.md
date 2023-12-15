@@ -203,7 +203,7 @@
 
 </details>
 
-### 🌐 `Additional Steps for Post-Genesis Validators:`
+### 🌐 `Additional Steps for Post-Genesis Validators: `
 **Description:** *If you intend to become a validator after the network genesis, this section provides the additional steps required.*
 
 <details>
