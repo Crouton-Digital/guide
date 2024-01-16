@@ -1,3 +1,6 @@
+![archway4 2](https://github.com/Crouton-Digital/guide/assets/113435724/1dde26a3-3cca-40ea-87b1-01aacbdadc2c)
+
+
 ## About **Archway**
 
 * **[Archway](https://archway.io/)** is an incentivized smart contract chain for Cosmos ecosystem which gives developers a simple way to build scalable cross-chain dapps. The developers automatically receive rewards for their contributions to the network. Simply deploy your contracts to an established Proof-of-Stake network. Fast and low cost.
