@@ -1,5 +1,4 @@
-![archway4 2](https://github.com/Crouton-Digital/guide/assets/113435724/1dde26a3-3cca-40ea-87b1-01aacbdadc2c)
-
+[<img src='https://github.com/Crouton-Digital/guide/assets/113435724/1dde26a3-3cca-40ea-87b1-01aacbdadc2c' alt='banner' width= '99.9%'>]()
 
 ## About **Archway**
 
