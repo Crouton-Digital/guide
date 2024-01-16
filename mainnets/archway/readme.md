@@ -36,11 +36,11 @@ ___
 ___
 ## Open Endpoints
 ```http
-API:      http://api-archway.testnet-pride.com:15317
-gRPC:     http://grpc-archway.testnet-pride.com:23090
-gRPC-web: http://grpc-web-archway.testnet-pride.com:23091
-RPC:      http://rpc-archway.testnet-pride.com:40657
-peer:     c8171d5b90ea72992408f8cfcd3893256d22aabc@peer-archway.testnet-pride.com:40656
+RPC:      https://rpc-archway-main.crouton.digital
+API:      https://api-archway-main.crouton.digital
+gRPC:     http://grpc-archway-main.crouton.digital:9690
+gRPC-web: http://grpc-web-archway-main.crouton.digital:9691
+peer:     d57bbeb22b4a98fcbdb5c440769ea46206d7ccfb@peer-archway-main.crouton.digital:27256
 ```
 ___
 ## Prepare a server
