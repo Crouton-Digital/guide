@@ -66,31 +66,6 @@ source $HOME/.bash_profile && \
 go version
 ```
 ___
-## Variables
-```python
-CHANGE VARIABLES
-```
-```bash
-MONIKER="<YOUR_NEW_MONIKER>"
-WALLET="<YOUR_WALLET_NAME>"
-WEBSITE="<YOUR_WEBSITE>"
-IDENTITY="<<YOUR_KEYBASE_ID>"
-DETAILS='"<YOUR_DESCRIPTION>"'
-SECURITY_CONTACT="<YOUR_EMAIL>"
-```
-```python
-SET VARIABLES 
-```
-```bash
-echo "export MONIKER=$MONIKER" >> $HOME/.bash_profile && \
-echo "export WALLET=$WALLET" >> $HOME/.bash_profile && \
-echo "export WEBSITE=$WEBSITE" >> $HOME/.bash_profile && \
-echo "export IDENTITY=$IDENTITY" >> $HOME/.bash_profile && \
-echo "export DETAILS=$DETAILS" >> $HOME/.bash_profile && \
-echo "export SECURITY_CONTACT=$SECURITY_CONTACT" >> $HOME/.bash_profile && \
-source $HOME/.bash_profile
-```
-___
 ## Build and configuration
 ```python
 BUILD BINARY
