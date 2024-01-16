@@ -52,11 +52,11 @@ sudo apt update && sudo apt upgrade -y && \
 sudo apt install curl tar wget clang pkg-config libssl-dev libleveldb-dev jq build-essential bsdmainutils git make ncdu htop screen unzip bc fail2ban htop -y
 ```
 ```python
-INSTALLING GO v1.19.4
+INSTALLING GO v1.21.1
 ```
 ```bash
 cd $HOME && \
-ver="1.19.4" && \
+ver="1.21.1" && \
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz" && \
 sudo rm -rf /usr/local/go && \
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz" && \
