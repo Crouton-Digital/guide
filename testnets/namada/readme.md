@@ -16,7 +16,7 @@
       
   - **Set the desired version**:
     ```bash
-    NAMADA_TAG="v0.28.1"
+    NAMADA_TAG="v0.31.0"
     ```
 
   - **Download and extract**:
@@ -121,7 +121,7 @@
 
   - **Set the chain ID**:
     ```bash
-    CHAIN_ID=public-testnet-14.5d79b6958580
+    CHAIN_ID=shielded-expedition.b40d8e9055
     echo "export CHAIN_ID=$CHAIN_ID" >> ~/.bashrc
     ```
 
