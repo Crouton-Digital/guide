@@ -98,7 +98,7 @@ Location: crates/apps/src/lib/cli/context.rs:246
 Backtrace omitted. Run with RUST_BACKTRACE=1 environment variable to display it.
 Run with RUST_BACKTRACE=full to include source snippets.
 ```
-Attempt to return IBC token with shielded transfer from crew to pilot
+### Attempt to return IBC token with shielded transfer from crew to pilot
 
 ```
 namadac transfer     --source crew-spend     --target znam1qr6v55a2gjhevsu4ukmqha54952az4vzavn3fy9ljwk9ns3n55zq6dsv2p2mnt6wg32y29qxnejhc  --token fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58     --amount 1 --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2" --signing-keys crew
