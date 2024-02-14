@@ -15,6 +15,7 @@ We completed unshielded transfer on  pilot account and tokens was **successfully
 **WE THINK** that sending IBC token with **shielded transfer makes it impossible to use it in future on another account**. Because token **contract is changed**, and we receive an **ERROR** that Namada **cannot read** this token
 
 For the experiment, 2 sets of wallets were used:
+
 1 registered as pilot:
 ```
 Transparent address: tnam1qq6lxympuusdqrn7lnva7htzemrlsq2kkqyaxc0q
@@ -38,7 +39,7 @@ transfer/channel-22/uflix: 9
 transfer/channel-3/uatom: 9
 ```
 
-Executing a transfer transfer/channel-1/uosmo to the pilot's Payment addresses:
+### Executing a transfer transfer/channel-1/uosmo to the pilot's Payment addresses:
 ```
 namadac transfer     --source croutondigital     --target croutondigital-pay     --token transfer/channel-1/uosmo     --amount 2     --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2"
 
