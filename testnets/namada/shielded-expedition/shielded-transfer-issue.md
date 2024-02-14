@@ -31,7 +31,6 @@ Payment addresses:   znam1qpt0524f38c24feffwkuugc27jvmvt3a9x4mtu8wwm8day2tqnvp4y
 Checking the pilot's balance:
 ```
 namadac balance --owner croutondigital
-
 naan: 360.707602
 transfer/channel-1/uosmo: 7
 transfer/channel-12/ustars: 9
