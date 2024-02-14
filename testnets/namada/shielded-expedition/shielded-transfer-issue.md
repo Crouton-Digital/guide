@@ -41,8 +41,12 @@ transfer/channel-3/uatom: 9
 
 ### Executing a transfer transfer/channel-1/uosmo to the pilot's Payment addresses:
 ```
-namadac transfer     --source croutondigital     --target croutondigital-pay     --token transfer/channel-1/uosmo     --amount 2     --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2"
-
+namadac transfer \
+  --source croutondigital \
+  --target croutondigital-pay \
+  --token transfer/channel-1/uosmo \
+  --amount 2 \
+  --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2"
 Enter your decryption password: 
 Transaction added to mempool.
 Wrapper transaction hash: 770ED12777007A2278388BE1DB3DAB508048B557A997CCDD9CA686C30F02B568
@@ -63,7 +67,13 @@ The token transfer/channel-1/uosmo appeared as tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5d
 ### Transfer between shielded addresses Pilot and Crew
 
 ```
-namadac transfer     --source croutondigital-spend     --target znam1qpt0524f38c24feffwkuugc27jvmvt3a9x4mtu8wwm8day2tqnvp4ye0fyqcqu7czc6ples54h5yg  --token tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75     --amount 1 --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2" --signing-keys croutondigital
+namadac transfer \
+  --source croutondigital-spend \
+  --target znam1qpt0524f38c24feffwkuugc27jvmvt3a9x4mtu8wwm8day2tqnvp4ye0fyqcqu7czc6ples54h5yg \
+  --token tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75 \
+  --amount 1 \
+  --signing-keys croutondigital \
+  --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2" 
 Enter your decryption password: 
 Enter your decryption password: 
 Transaction added to mempool.
@@ -89,7 +99,13 @@ fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58 : 2
 ### Attempt to withdraw token from shielded to transparent address
 
 ```
-namadac transfer     --source crew-spend     --target crew     --token fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58      --amount 1     --signing-keys crew     --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2"
+namadac transfer \
+  --source crew-spend \
+  --target crew \
+  --token fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58 \
+  --amount 1 \
+  --signing-keys crew \
+  --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2"
 Enter your decryption password: 
 The application panicked (crashed).
 Message:  called `Result::unwrap()` on an `Err` value: "Unknown address fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58"
@@ -129,7 +145,13 @@ transfer/channel-3/uatom: 9
 ```
 Unshield transfer
 ```
-namadac transfer     --source croutondigital-spend     --target croutondigital     --token tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75      --amount 1     --signing-keys croutondigital     --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2"
+namadac transfer \
+  --source croutondigital-spend \
+  --target croutondigital \
+  --token tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75 \
+  --amount 1 \
+  --signing-keys croutondigital \
+  --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2"
 Enter your decryption password: 
 Enter your decryption password: 
 Wrapper transaction hash: FAA3758B80E4EB05DBB5B6F4D298FA12E1121A5140376B2307AAB2CD332B2ED2
