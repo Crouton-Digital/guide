@@ -1,6 +1,6 @@
 **CONCLUSION**
 
-We completed IBC token transfer `transfer/channel-1/uosmo` to shielded address from `tnam1qq6lxympuusdqrn7lnva7htzemrlsq2kkqyaxc0q`  to `znam1qr6v55a2gjhevsu4ukmqha54952az4vzavn3fy9ljwk9ns3n55zq6dsv2p2mnt6wg32y29qxnejhc`
+We completed IBC token [transfer](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#executing-a-transfer-transferchannel-1uosmo-to-the-pilots-payment-addresses) `transfer/channel-1/uosmo` to shielded address from `tnam1qq6lxympuusdqrn7lnva7htzemrlsq2kkqyaxc0q`  to `znam1qr6v55a2gjhevsu4ukmqha54952az4vzavn3fy9ljwk9ns3n55zq6dsv2p2mnt6wg32y29qxnejhc`
 
 Token transfer was **successful** and we see it on balance as `tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75`
 
