@@ -52,7 +52,7 @@ Waiting for inner transaction result...
 Transaction was successfully applied at height 12980. Used 10166 gas.
 ```
 
-Checking the balance of the Shielded address:
+### Checking the balance of the Shielded address:
 ```
 namadac balance --owner croutondigital-spend
 Last committed epoch: 3
