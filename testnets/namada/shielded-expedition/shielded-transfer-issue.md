@@ -12,7 +12,7 @@ On crew address we tried to complete unshield transfer and we got [**ERROR**](ht
 
 We completed unshielded transfer on  pilot account and tokens was [**successfully**](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#attempt-to-return-ibc-token-with-shielded-transfer-from-crew-to-pilot) converted back to initial token
 
-**WE THINK** that sending IBC token with **shielded transfer makes it impossible to use it in future on another account**. Because token **contract is changed**, and we receive an **ERROR** that Namada **cannot read** this token
+**WE THINK** that sending IBC token with **shielded transfer makes it impossible to use it in future on another account**. Because token **contract is changed**, and we receive an [**ERROR**](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#attempt-to-withdraw-token-from-shielded-to-transparent-address) that Namada **cannot read** this token
 ___
 ### For the experiment, 2 sets of wallets were used:
 
