@@ -13,6 +13,28 @@ On crew address we tried to complete unshield transfer and we got [**ERROR**](ht
 We completed unshielded transfer on  pilot account and tokens was [**successfully**](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#attempt-to-return-ibc-token-with-shielded-transfer-from-crew-to-pilot) converted back to initial token
 
 **WE THINK** that sending IBC token with **shielded transfer makes it impossible to use it in future on another account**. Because token **contract is changed**, and we receive an [**ERROR**](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#attempt-to-withdraw-token-from-shielded-to-transparent-address) that Namada **cannot read** this token
+
+## CONCLUSION EXPERIMENT 2
+
+We conclude when transferring them through a different channel, the token will have a different contract both in the transparent wallet and in the shielded one. We create additional channels and check this.
+
+As anticipated, we receive an IBC token with a different name due to the use of a different channel.
+
+1. Checking the pilot's shielded balance
+2. Shielded transfer to the pilot's address
+3. Checking the pilot's shielded balance after the transfer
+4. Checking the crew's shielded balance
+5. Shielded transfer from pilot to crew
+6. Checking the crew's shielded balance after the transfer
+
+As a result, we received an IBC token with a different contract on the pilot's shielded address. Previously, it was
+tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75,
+and we received
+transfer/channel-28/uosmo.
+
+However, when executing a shielded transaction between the pilot's and crew's addresses, we received the same token with the contract
+fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58
+
 ___
 ## Experiment 1
 
@@ -170,4 +192,74 @@ transfer/channel-1/uosmo: 6
 transfer/channel-12/ustars: 9
 transfer/channel-22/uflix: 9
 transfer/channel-3/uatom: 9
+```
+
+## Experiment 2
+
+```
+naan: 345.707602
+transfer/channel-1/uosmo: 4
+transfer/channel-12/ustars: 9
+transfer/channel-22/uflix: 9
+transfer/channel-28/uosmo: 10
+transfer/channel-3/uatom: 9
+```
+
+1
+```
+namadac balance --owner croutondigital-spend
+Last committed epoch: 3
+tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75 : 1
+```
+2
+```namadac transfer     --source croutondigital     --target croutondigital-pay     --token transfer/channel-28/uosmo     --amount 2     --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2"
+Enter your decryption password: 
+Transaction added to mempool.
+Wrapper transaction hash: D49FB70B26DE02301516C833D647427B7A5920FF3B8F7D7F2CC303AE047B0F87
+Inner transaction hash: 2E3047B2FE23639EF5E14364CE1C3B29CA541AC989C2596D4DDB89C246355742
+Wrapper transaction accepted at height 13765. Used 47 gas.
+Waiting for inner transaction result...
+Transaction was successfully applied at height 13766. Used 10153 gas.
+```
+3
+```
+namadac balance --owner croutondigital-spend
+Last committed epoch: 3
+tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75 : 1
+transfer/channel-28/uosmo : 2
+```
+4
+```
+namadac balance --owner crew-spend
+Last committed epoch: 3
+converting current asset type to latest asset type...
+naan : 2
+fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58 : 2
+```
+5
+```
+namadac transfer \
+  --source croutondigital-spend \
+  --target znam1qpt0524f38c24feffwkuugc27jvmvt3a9x4mtu8wwm8day2tqnvp4ye0fyqcqu7czc6ples54h5yg \
+  --token transfer/channel-28/uosmo \
+  --amount 1 \
+  --signing-keys croutondigital \
+  --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2"
+Enter your decryption password: 
+Enter your decryption password: 
+Transaction added to mempool.
+Wrapper transaction hash: 80040CEB76005E8FD09E764E38E453AC1D58F8177184ADE6761DBD9166405F97
+Inner transaction hash: 8D88E8C7D88C3A3CEEE91CC51C5AFE5C6AA2D6BC9C7D773690243B4DF06DC33E
+Wrapper transaction accepted at height 13778. Used 67 gas.
+Waiting for inner transaction result...
+Transaction was successfully applied at height 13779. Used 9745 gas.
+```
+
+6
+```
+namadac balance --owner crew-spend
+Last committed epoch: 3
+converting current asset type to latest asset type...
+naan : 2
+fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58 : 3
 ```
