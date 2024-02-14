@@ -28,12 +28,11 @@ As anticipated, we receive an IBC token with a different name due to the use of 
 6. [Checking the crew's shielded balance after the transfer](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#checking-the-crews-shielded-balance-after-the-transfer)
 
 As a result, we received an IBC token with a different contract on the pilot's shielded address. Previously, it was
-tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75,
-and we received
-transfer/channel-28/uosmo.
+`tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75`,
+and we received `transfer/channel-28/uosmo`.
 
 However, when executing a shielded transaction between the pilot's and crew's addresses, we received the same token with the contract
-fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58
+`fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58`
 
 ___
 ## Experiment 1
