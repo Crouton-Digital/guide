@@ -2,18 +2,18 @@
 
 **Hermes memo_prefix:** **`CroutonDigital`**
 ```
-Namada (shielded-expedition.b40d8e9055):
-   channel_id:    channel-10
-   client_id:     07-tendermint-33
-   connection_id: connection-16
+Namada (shielded-expedition.88f17d1d14):
+   channel_id:    channel-55
+   client_id:     07-tendermint-206
+   connection_id: connection-80
    port_id:       transfer
 Creation address: tnam1qr9vy2t28cu2ezhax5r7mpeknh4wzn58tupq0cf4
 ```
 ```
 Stargaze (elgafar-1): 
-   channel_id:    channel-753
-   client_id:     07-tendermint-690
-   connection_id: connection-699
+   channel_id:    channel-765
+   client_id:     07-tendermint-708
+   connection_id: connection-714
    port_id:       transfer
 Creation address: stars1tjg4dz0jec37kyddvrtx4g0rjeyfqmhtza255f
 ```
