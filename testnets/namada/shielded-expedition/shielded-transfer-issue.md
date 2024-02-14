@@ -20,12 +20,12 @@ We conclude when transferring them through a different channel, the token will h
 
 As anticipated, we receive an IBC token with a different name due to the use of a different channel.
 
-1. Checking the pilot's shielded balance
-2. Shielded transfer to the pilot's address
-3. Checking the pilot's shielded balance after the transfer
-4. Checking the crew's shielded balance
-5. Shielded transfer from pilot to crew
-6. Checking the crew's shielded balance after the transfer
+1. [Checking the pilot's shielded balance](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#checking-the-pilots-shielded-balance)
+2. [Shielded transfer to the pilot's address](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#shielded-transfer-to-the-pilots-address)
+3. [Checking the pilot's shielded balance after the transfer](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#checking-the-pilots-shielded-balance-after-the-transfer)
+4. [Checking the crew's shielded balance](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#checking-the-crews-shielded-balance)
+5. [Shielded transfer from pilot to crew](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#shielded-transfer-from-pilot-to-crew)
+6. [Checking the crew's shielded balance after the transfer](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#checking-the-crews-shielded-balance-after-the-transfer)
 
 As a result, we received an IBC token with a different contract on the pilot's shielded address. Previously, it was
 tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75,
