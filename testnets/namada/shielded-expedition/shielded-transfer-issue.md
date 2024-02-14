@@ -10,7 +10,7 @@ Transfer was [**successful**](https://github.com/Crouton-Digital/guide/blob/main
 
 On crew address we tried to complete unshield transfer and we got [**ERROR**](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#attempt-to-withdraw-token-from-shielded-to-transparent-address), also we tried to return the IBC token back to shielded pilot address and we got the [**ERROR**](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#attempt-to-return-ibc-token-with-shielded-transfer-from-crew-to-pilot)
 
-We completed unshielded transfer on  pilot account and tokens was **successfully** converted back to initial token
+We completed unshielded transfer on  pilot account and tokens was [**successfully**](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#attempt-to-return-ibc-token-with-shielded-transfer-from-crew-to-pilot) converted back to initial token
 
 **WE THINK** that sending IBC token with **shielded transfer makes it impossible to use it in future on another account**. Because token **contract is changed**, and we receive an **ERROR** that Namada **cannot read** this token
 
