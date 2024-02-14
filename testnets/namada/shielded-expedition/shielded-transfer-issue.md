@@ -8,7 +8,7 @@ We completed [shielded transfer](https://github.com/Crouton-Digital/guide/blob/m
 
 Transfer was [**successful**](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#tokens-received-on-the-shielded-address-crew) and we see token on balance as `fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58` ( **contract address was changed**  :rotating_light:)
 
-On crew address we tried to complete unshield transfer and we got **ERROR**, also we tried to return the IBC token back to shielded pilot address and we got the **ERROR**
+On crew address we tried to complete unshield transfer and we got [**ERROR**](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#attempt-to-withdraw-token-from-shielded-to-transparent-address), also we tried to return the IBC token back to shielded pilot address and we got the **ERROR**
 
 We completed unshielded transfer on  pilot account and tokens was **successfully** converted back to initial token
 
