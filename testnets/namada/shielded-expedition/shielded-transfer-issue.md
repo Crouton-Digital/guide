@@ -101,7 +101,13 @@ Run with RUST_BACKTRACE=full to include source snippets.
 ### Attempt to return IBC token with shielded transfer from crew to pilot
 
 ```
-namadac transfer     --source crew-spend     --target znam1qr6v55a2gjhevsu4ukmqha54952az4vzavn3fy9ljwk9ns3n55zq6dsv2p2mnt6wg32y29qxnejhc  --token fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58     --amount 1 --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2" --signing-keys crew
+namadac transfer \
+  --source crew-spend \
+  --target znam1qr6v55a2gjhevsu4ukmqha54952az4vzavn3fy9ljwk9ns3n55zq6dsv2p2mnt6wg32y29qxnejhc \
+  --token fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58 \
+  --amount 1 \
+  --signing-keys crew \
+  --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2" --signing-keys crew
 Enter your decryption password: 
 The application panicked (crashed).
 Message:  called `Result::unwrap()` on an `Err` value: "Unknown address fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58"
@@ -134,7 +140,8 @@ Transaction was successfully applied at height 13236. Used 10176 gas.
 ```
 
 Checking the pilot's balance:
-```namadac balance --owner croutondigital
+```
+namadac balance --owner croutondigital
 naan: 350.707602
 transfer/channel-1/uosmo: 6
 transfer/channel-12/ustars: 9
