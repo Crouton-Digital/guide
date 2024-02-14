@@ -4,7 +4,7 @@ We completed IBC token [transfer](https://github.com/Crouton-Digital/guide/blob/
 
 Token transfer was [**successful**](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#checking-the-balance-of-the-shielded-address) and we see it on balance as `tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75`
 
-We completed shielded transfer from `znam1qr6v55a2gjhevsu4ukmqha54952az4vzavn3fy9ljwk9ns3n55zq6dsv2p2mnt6wg32y29qxnejhc` to ` znam1qpt0524f38c24feffwkuugc27jvmvt3a9x4mtu8wwm8day2tqnvp4ye0fyqcqu7czc6ples54h5yg`
+We completed shielded transfer from `znam1qr6v55a2gjhevsu4ukmqha54952az4vzavn3fy9ljwk9ns3n55zq6dsv2p2mnt6wg32y29qxnejhc` to `znam1qpt0524f38c24feffwkuugc27jvmvt3a9x4mtu8wwm8day2tqnvp4ye0fyqcqu7czc6ples54h5yg`
 
 Transfer was **successful** and we see token on balance as `fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58` ( **contract address was changed**  :rotating_light:)
 
@@ -60,7 +60,7 @@ tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75 : 2
 ```
 The token transfer/channel-1/uosmo appeared as tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75  on the Shielded address
 
-**Transfer between shielded addresses Pilot and Crew**
+### Transfer between shielded addresses Pilot and Crew
 
 ```
 namadac transfer     --source croutondigital-spend     --target znam1qpt0524f38c24feffwkuugc27jvmvt3a9x4mtu8wwm8day2tqnvp4ye0fyqcqu7czc6ples54h5yg  --token tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75     --amount 1 --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2" --signing-keys croutondigital
