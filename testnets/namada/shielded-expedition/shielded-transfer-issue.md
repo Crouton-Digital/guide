@@ -110,7 +110,7 @@ Location: crates/apps/src/lib/cli/context.rs:246
 Backtrace omitted. Run with RUST_BACKTRACE=1 environment variable to display it.
 Run with RUST_BACKTRACE=full to include source snippets.
 ```
-Return of tokens from the shielded address to the transparent for the pilot:
+### Return of tokens from the shielded address to the transparent for the pilot:
 ```
 namadac balance --owner croutondigital
 naan: 353.207602
