@@ -205,13 +205,14 @@ transfer/channel-28/uosmo: 10
 transfer/channel-3/uatom: 9
 ```
 
-1
+### Checking the pilot's shielded balance
 ```
 namadac balance --owner croutondigital-spend
 Last committed epoch: 3
 tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75 : 1
 ```
-2
+
+### Shielded transfer to the pilot's address
 ```namadac transfer     --source croutondigital     --target croutondigital-pay     --token transfer/channel-28/uosmo     --amount 2     --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2"
 Enter your decryption password: 
 Transaction added to mempool.
@@ -221,14 +222,14 @@ Wrapper transaction accepted at height 13765. Used 47 gas.
 Waiting for inner transaction result...
 Transaction was successfully applied at height 13766. Used 10153 gas.
 ```
-3
+### Checking the pilot's shielded balance after the transfer
 ```
 namadac balance --owner croutondigital-spend
 Last committed epoch: 3
 tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75 : 1
 transfer/channel-28/uosmo : 2
 ```
-4
+### Checking the crew's shielded balance
 ```
 namadac balance --owner crew-spend
 Last committed epoch: 3
@@ -236,7 +237,7 @@ converting current asset type to latest asset type...
 naan : 2
 fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58 : 2
 ```
-5
+### Shielded transfer from pilot to crew
 ```
 namadac transfer \
   --source croutondigital-spend \
@@ -254,8 +255,7 @@ Wrapper transaction accepted at height 13778. Used 67 gas.
 Waiting for inner transaction result...
 Transaction was successfully applied at height 13779. Used 9745 gas.
 ```
-
-6
+### Checking the crew's shielded balance after the transfer
 ```
 namadac balance --owner crew-spend
 Last committed epoch: 3
