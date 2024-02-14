@@ -16,13 +16,13 @@ We completed unshielded transfer on  pilot account and tokens was [**successfull
 ___
 ### For the experiment, 2 sets of wallets were used:
 
-1 registered as pilot:
+ - registered as pilot:
 ```
 Transparent address: tnam1qq6lxympuusdqrn7lnva7htzemrlsq2kkqyaxc0q
 Payment addresses:   znam1qr6v55a2gjhevsu4ukmqha54952az4vzavn3fy9ljwk9ns3n55zq6dsv2p2mnt6wg32y29qxnejhc
 ```
 
-2 registered as crew:
+ - registered as crew:
 ```
 Transparent address: tnam1qr9vy2t28cu2ezhax5r7mpeknh4wzn58tupq0cf4
 Payment addresses:   znam1qpt0524f38c24feffwkuugc27jvmvt3a9x4mtu8wwm8day2tqnvp4ye0fyqcqu7czc6ples54h5yg
@@ -111,6 +111,8 @@ Backtrace omitted. Run with RUST_BACKTRACE=1 environment variable to display it.
 Run with RUST_BACKTRACE=full to include source snippets.
 ```
 ### Return of tokens from the shielded address to the transparent for the pilot:
+
+Checking the pilot's balance:
 ```
 namadac balance --owner croutondigital
 naan: 353.207602
@@ -119,7 +121,7 @@ transfer/channel-12/ustars: 9
 transfer/channel-22/uflix: 9
 transfer/channel-3/uatom: 9
 ```
-
+Unshield transfer
 ```
 namadac transfer     --source croutondigital-spend     --target croutondigital     --token tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75      --amount 1     --signing-keys croutondigital     --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2"
 Enter your decryption password: 
@@ -131,6 +133,7 @@ Waiting for inner transaction result...
 Transaction was successfully applied at height 13236. Used 10176 gas.
 ```
 
+Checking the pilot's balance:
 ```namadac balance --owner croutondigital
 naan: 350.707602
 transfer/channel-1/uosmo: 6
