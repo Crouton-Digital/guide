@@ -122,7 +122,7 @@ namadac transfer \
   --token fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58 \
   --amount 1 \
   --signing-keys crew \
-  --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2" --signing-keys crew
+  --memo "tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2"
 Enter your decryption password: 
 The application panicked (crashed).
 Message:  called `Result::unwrap()` on an `Err` value: "Unknown address fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58"
