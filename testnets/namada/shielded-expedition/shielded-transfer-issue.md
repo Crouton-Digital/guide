@@ -74,7 +74,7 @@ Waiting for inner transaction result...
 Transaction was successfully applied at height 13362. Used 9742 gas.
 ```
 
-Tokens received on the Shielded address Crew
+### Tokens received on the Shielded address Crew
 ```
 namadac balance --owner crew-spend
 Last committed epoch: 3
