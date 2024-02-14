@@ -14,6 +14,8 @@ We completed unshielded transfer on  pilot account and tokens was [**successfull
 
 **WE THINK** that sending IBC token with **shielded transfer makes it impossible to use it in future on another account**. Because token **contract is changed**, and we receive an [**ERROR**](https://github.com/Crouton-Digital/guide/blob/main/testnets/namada/shielded-expedition/shielded-transfer-issue.md#attempt-to-withdraw-token-from-shielded-to-transparent-address) that Namada **cannot read** this token
 ___
+## Experiment 1
+
 ### For the experiment, 2 sets of wallets were used:
 
  - registered as pilot:
