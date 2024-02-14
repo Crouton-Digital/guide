@@ -39,7 +39,7 @@ transfer/channel-22/uflix: 9
 transfer/channel-3/uatom: 9
 ```
 
-### Executing a transfer transfer/channel-1/uosmo to the pilot's Payment addresses:
+### Executing a transfer `transfer/channel-1/uosmo` to the pilot's Payment addresses:
 ```
 namadac transfer \
   --source croutondigital \
@@ -62,7 +62,7 @@ namadac balance --owner croutondigital-spend
 Last committed epoch: 3
 tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75 : 2
 ```
-The token transfer/channel-1/uosmo appeared as tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75  on the Shielded address
+The token `transfer/channel-1/uosmo` appeared as `tnam1p5z8ruwyu7ha8urhq2l0dhpk2f5dv3ts7uyf2n75`  on the Shielded address
 
 ### Transfer between shielded addresses Pilot and Crew
 
@@ -93,7 +93,7 @@ naan : 2
 fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58 : 2
 ```
 
-**The token contract has changed** on fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58  ❗️
+**The token contract has changed** on `fc53dad0b9f1ee25ea954d3583d63a00e3efc3f60b256e172ffa9e1bc68acb58`  ❗️
 
 
 ### Attempt to withdraw token from shielded to transparent address
