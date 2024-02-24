@@ -72,7 +72,7 @@ wget -O $HOME/.celestia-app/config/genesis.json https://raw.githubusercontent.co
 ```
 #
 ```python
-DOWNLOAD ADDRBOOK
+SET PEERS
 ```
 ```bash
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$(curl -sL https://raw.githubusercontent.com/celestiaorg/networks/master/mocha-4/peers.txt | head -c -1 | tr '\n' ',')\"/" $HOME/.celestia-app/config/config.toml
