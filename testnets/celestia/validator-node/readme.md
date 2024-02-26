@@ -1,5 +1,6 @@
 ___
-[<img src='' alt='banner' width= '99.5%'>]()
+[<img src='' alt='banner' width= '99.5%'>](https://github.com/Crouton-Digital/guide/assets/113435724/7719664e-81f4-462c-bef8-023627982836)
+
 ___
 ## Useful links
 
